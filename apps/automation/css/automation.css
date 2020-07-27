@@ -1,1 +1,98 @@
+/* Design Selection Page CSS */
+.journey-gallery-grid{
+	border: solid 1px #ced4d8;
+	position: relative;
 	height: auto;
+	max-height: auto;
+	-webkit-box-align: center;
+	ms-flex-align: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: center;
+    justify-content: center;
+	overflow: hidden;
+	padding: 15px;
+}
+.journey-icon{font-size: 56px; color: #7f7c88;}
+.journey-gallery-grid:hover {
+    border: solid 1px #513c80;
+}
+@media (min-width: 768px){
+.journey-gallery-grid {
+    max-height: 170px;
+    height: 170px;
+}
+.journey-icon{font-size: 85px;}
+.design-section-scroll{overflow: hidden;}
+}
+.journey-popup-icon{
+    top: 10px;
+    right: 10px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    line-height: 17px;
+	background: #58bd1a;
+	position: absolute;
+	color: #ffffff;
+	display: none;
+	border-radius: 50%;
+}
+.journey-gallery-grid.recent-active-template .journey-popup-icon{
+    display: block;
+}
+a.journey-detail-btn{
+    color: #39295d;
+    font-size: 14px;
+    text-decoration: none;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+/* Journey Preview Popup Css*/
+.journey-preview{
+	background: #eff3f6;
+	overflow: auto;
+	height: 350px;
+	max-height: 350px;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+	padding: 15px;
+}
+@media (min-width:768px){
+.journey-preview{
+	height: 450px;
+	max-height: 450px;
+	padding: 30px;
+}
+.journey-info-scroll{
+	max-height: 530px;
+}
+}
+@media (min-width:992px){
+.journey-preview{
+	height: 540px;
+	max-height: 540px;
+}	
+}
+.journey-triggered-border{
+	position: absolute;
+	width: 1px;
+	background: #ced4d8;
+	height: 100%;
+	left: 50%;
+	top: 0;
+}
+#triggeredendedgraph {
+    height: 430px;
+}
+.puplish-form input[type="text"]:hover,
+.puplish-form input[type="text"]:focus{
+	border-top-left-radius: 0px !important;
+	border-bottom-left-radius:0px !important;
+	border: 1px solid #ced4d8;
+}	
