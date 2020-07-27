@@ -1,0 +1,57 @@
+
+
+2. Name: Bootstrap
+Link: https://getbootstrap.com
+License: Open Source
+
+3. Name: Bootstrap Select
+Link: https://developer.snapappointments.com/bootstrap-select
+License: Open Source
+
+4. Name: Bootstrap Colorpicker
+Link: https://itsjavi.com/bootstrap-colorpicker/
+License: Open Source
+
+5. Name: Caleran Calender
+Purchased
+Link: http://rettica.com/caleran/docs/readme.html
+License:
+
+6. Name: CKeditor
+Link: http://ckeditor.com
+License:https://ckeditor.com/legal/ckeditor-oss-License(Open Source)
+
+7. Name: Analog Clock
+Link: https://codepen.io/codeBalan/pen/zBWEyb(CodePen)
+License: 
+
+8. Name: EmojiPicker
+Link: https://github.com/wedgies/jquery-emoji-picker
+License: Open Source
+
+9. Name: Flagstrap
+Link: http://www.blazeworx.com/flagstrap
+License: Open Source
+
+10. Name: jqueryui
+Link: http://jqueryui.com
+License: Open Source
+
+11. Name: NVD3 Charts
+Link: https://github.com/novus/nvd3
+License: Open Source
+
+12. Name: Custom-Scrollbar
+Link: http://manos.malihu.gr/jquery-custom-content-scroller
+License: Open Source
+
+13. Name: Jquery Tags Input
+Link: http://xoxco.com/projects/code/tagsinput/
+License: Open Source
+
+14. Name: Intl-tel-input
+Link: https://github.com/jackocnr/intl-tel-input.git
+License: Open Source
+
+
+

@@ -1,0 +1,307 @@
+html, body, .joint-app {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    user-select: none;
+    overflow: hidden;
+}
+
+/* automation Header css end*/
+.journey-container{
+	position:relative;	
+	height: -moz-calc(100% - 50px);
+    height: -webkit-calc(100% - 50px);
+    height: calc(100% - 50px);
+
+}
+.hide-block{display:none;}
+.show-block{display:block;}
+.paper-container .show-block,.navigator-container .show-block{display:none;}
+.paper-container .hide-block,.navigator-container .hide-block{display:block;}
+
+/*  Paper  */
+.paper-container {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    left: 220px;
+    right: 0px;
+	background: #eef4f6 !important;
+}
+.paper-container .joint-paper-scroller.joint-theme-modern{
+    background: transparent;
+}
+.paper-container .joint-paper-grid{
+	background-image: none !important;
+}
+.paper-container{
+    left: 220px;
+    width: calc(100% - 220px);
+    height: 100%;
+	position: absolute;
+}
+.object-property[data-property$="/fill"],
+.object-property[data-property$="/stroke"],
+.field[data-field$="/fill"],
+.field[data-field$="/stroke"] {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+}
+
+.joint-select-box.joint-color-palette .select-box-option:nth-child(2):not(.hover) {
+    border: inset;
+    border-width: 1px;
+}
+
+.joint-inspector-select-box-options {
+    width: 190px;
+}
+
+.paper-container .joint-vertices-path ,
+.paper-container .joint-link .label{
+    cursor: default;
+	pointer-events: none;
+}
+/*  Navigator  */
+.navigator-container {
+    position: absolute;
+    right: 75px;
+    bottom: 30px;
+    width: 160px;
+    height: 103px;
+	box-shadow: 0px 2px 2.68px 1.32px rgba(28, 28, 28, 0.08);
+	border-radius: 5px;
+	background: #ffffff;
+	padding: 5px;
+}
+.navigator-container .joint-paper.joint-theme-modern{
+	background: transparent;
+	box-shadow: none;
+}
+.navigator-container .joint-navigator{
+	border-radius: 5px;
+	background: #cfd5d9;
+	display: inline-block;
+}
+.navigator-container .joint-navigator.joint-theme-modern .current-view{ border: 2px solid #608faa;border-radius: 5px;}
+.navigator-container .joint-navigator.joint-theme-modern .current-view-control {
+	border: 2px solid #608faa;
+	bottom: 2px;
+	right: 2px;
+	
+}
+
+/* ZoomIn ZoomOut Button CSS */
+.navigator-btn{
+	border-radius: 5px;
+	background: #ffffff;
+	box-shadow: 0px 2px 2.68px 1.32px rgba(28, 28, 28, 0.08);
+	width: 25px;
+	height: 103px;
+	position: absolute;
+	right: 45px;
+	bottom: 30px;
+}
+a.nav-zoom-btn,
+a.nav-zoom-btn:hover,
+a.nav-zoom-btn:focus{
+	background: transparent;
+	color: #748089;
+	font-size: 10px !important;
+	padding: 9px 6px;
+	border-radius: 0px !important;
+}
+a.zoom-border-btn,
+a.zoom-border-btn:hover,
+a.zoom-border-btn:focus{border-top: 1px solid #ebebeb; border-bottom: 1px solid #ebebeb;}
+/*  Stencil  */
+.stencil-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 220px;
+    height: 100%;
+}
+.stencil-container .joint-stencil.joint-theme-modern .group > .group-label{
+	padding: 0 0px 5px 0px;
+	border-bottom: solid 1px #3b3644;
+	background: transparent;
+	color: #b3afbc;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: normal;
+	height: auto;
+	text-transform: capitalize;
+}
+
+/* .content .group:nth-of-type(2) .group-label{ border-color: #318a78 !important;}
+.content .group:nth-of-type(3) .group-label{ border-color: #f6635f !important;} */
+.stencil-container .joint-stencil.joint-theme-modern .group > .group-label::before{
+	display: none;
+}
+.stencil-container .joint-stencil > .content{
+	padding: 0px;
+	background: #0a0415;
+	height: 100%;
+}
+.journey-container .joint-paper-background,
+.journey-container .joint-paper-grid,
+.journey-container .joint-paper > svg{
+left: -20px;
+}
+.stencil-container .joint-stencil.joint-theme-modern .group {
+    padding: 30px 30px 10px;
+}
+.stencil-container .joint-stencil.joint-theme-modern .group.closed {
+    max-height: 60px;
+}
+/* Stencil Trigger And Action CSS */
+.trigger-stencil,.action-stencil,.control-stencil{fill: #231e2d;}
+.rotatable:hover .trigger-stencil{fill: #5678ce;}
+.rotatable:hover .action-stencil{fill: #00b4b1;}
+.rotatable:hover .control-stencil{fill: #fd4b6d;}
+.stencil-label{
+	font-size: 14px; 
+	font-weight: 400;
+	fill: #b3afbc;
+}
+.trigger-header-text{
+	font-size: 16px; 
+	font-weight: 400;
+}
+.trigger-body-content{
+	font-size: 16px; 
+	font-weight: 500; 
+	fill: #34303f;
+}
+.trigger-content-link{
+	font-size: 16px; 
+	font-weight: 500; 
+	cursor: pointer;
+	pointer-events: all;
+	fill: #4062f7;
+}
+.trigger-content-link:hover{
+	text-decoration: underline;
+}
+.trigger-delete{cursor: pointer;}
+/* Output Port CSS */
+.joint-port{ display: none;}
+.paper-container  .joint-port{ display: block;}
+.joint-port-body image{pointer-events:none;}
+[magnet=true]:not(.joint-element):hover { opacity: 1;}
+.dotted-stroke{ stroke-dasharray: 4 4;}
+.joint-port-body:hover circle{ fill: #eff3f6;}
+/* Send Mail Action Hover css */
+.rotatable.action-modal .joint-port-body text{display:none;}
+.rotatable.action-modal:hover .joint-port-body  text{display:block;}
+.rotatable.action-modal .joint-port-body:hover text{fill: #293239;}
+/* Alert Box CSS*/
+.alert-positions { top: 62px; right: 35px;}
+
+/* Left SideBar Toggle CSS */
+.stencil-container,
+.paper-container{
+	-webkit-transition: all 0.5s ease;
+	   -moz-transition: all 0.5s ease;
+	    -ms-transition: all 0.5s ease;
+	     -o-transition: all 0.5s ease;
+	        transition: all 0.5s ease;
+}
+a.journey-expand-toggle{
+	position: absolute;
+    left: 210px;
+    top: 18px;
+	width: 20px;
+	height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #49464a;
+    font-size: 9px;
+	z-index: 1;
+	background: #ffffff;
+	border-radius: 50%;
+	box-shadow: 0px 0px 1.72px 0.28px rgba(10, 4, 21, 0.47);
+	-webkit-transition: all 0.5s ease;
+	   -moz-transition: all 0.5s ease;
+	     -o-transition: all 0.5s ease;
+	        transition: all 0.5s ease;
+	        transition: all 0.5s ease;
+}
+
+.journey-expanded .stencil-container{ left: -220px;}
+.journey-expanded .paper-container{
+	left: 0px;
+	width: 100%;
+}
+.journey-expanded  a.journey-expand-toggle{ left: 0px;}
+/* Stencil ScrollBar Colour CSS */
+.stencil-container .mCS-inset-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #3b3644 !important;
+	width: 5px !important;
+}
+/* Stencil  Expand/Open Icon of Trigger and Actions */
+.stencil-container .group .group-label{ position: relative;}
+.stencil-container .group .group-label:after {
+    content: '\a495';
+    font-family: 'icomoon' !important;
+    position: absolute;
+    right: 0px;
+    top: 8px;
+    font-size: 12px;
+    color: #3b3644;
+}
+.stencil-container .group.closed .group-label:after {
+	content: '\a231';
+	font-size: 13px;
+}
+/* ToolTip Z-Index CSS */
+.tooltip { z-index: 1093;}
+
+.trigger-circle{
+	position: relative;
+}
+.trigger-btn{
+	height: 20px;
+	width: 20px;
+	fill: #ffffff;
+	stroke: #a3b8dd;
+	stroke-width: 1;
+	 rx: 5;
+	 cursor: pointer;
+}	
+/* .trigger-btn:hover{ fill: #5678ce; }
+.trigger-connect-circle:hover{ fill: #5678ce; } */
+.trigger-edit{cursor: pointer;}
+.trigger-wrap {
+	stroke: #a8bae4;
+	stroke-width: 1;
+}
+.stencil-hover-view .trigger-wrap {
+	stroke: none;
+}
+.stencil-hover-view .trigger-left-border,
+.stencil-hover-view .show-on-hover{ display: none;}
+.stencil-hover-view:hover .trigger-left-border,
+.stencil-hover-view:hover .show-on-hover{ display: block;}
+.stencil-hover-view:hover .trigger-wrap {
+	stroke: #a8bae4;
+}
+.stencil-hover-view:hover .trigger-circle {
+	rx: 0;
+}
+.stencil-hover-view:hover .trigger-content-link{
+	text-decoration: underline;
+}

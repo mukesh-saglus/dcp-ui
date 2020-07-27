@@ -1,0 +1,265 @@
+/* Funnel Header css */
+.funnel-header {
+	height: 50px;
+	background: #ffffff;
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+	box-shadow: 0px 1px 3px 0px rgba(107, 112, 114, 0.4);
+}
+ul.funnel-header-icons{
+	padding:0;
+	margin:0;
+	height: 100%;
+}
+ul.funnel-header-icons li{
+	float:left;
+	list-style:none;
+	font-size: 14px;
+	border-left: solid 1px #eff3f6;
+	height: 100%;
+}
+ul.funnel-header-icons li:first-child{
+	border-left: hidden;
+}
+ul.funnel-header-icons li .text-static{
+	font-size: 14px;
+	padding: 0px 15px;
+	height: 100%;
+	align-items: center;
+	display: flex;
+	color: #58bd1a;
+}
+ul.funnel-header-icons li .text-static .tick-icon{
+	padding: 3px;
+	border:solid 2px #58bd1a;
+	color: #58bd1a;
+	border-radius: 50%;
+	font-size: 10px;
+}
+ul.funnel-header-icons li a{
+    display: table-cell;
+    height: 50px;
+    text-align: center;
+    padding: 0px 15px;
+    text-decoration: none;
+    color: #34303f;
+    vertical-align: middle;
+	position: relative;
+	font-size: 14px;
+	
+}
+ul.funnel-header-icons li a.disable-icon i,
+ul.funnel-header-icons li a.disable-icon{
+	color: #eff3f6;
+	background: transparent !important;
+}
+
+ul.funnel-header-icons li a i{color: #7f7c88;}
+ul.funnel-header-icons li a:hover,
+ul.funnel-header-icons li a:focus,
+ul.funnel-header-icons li.edit-name:hover,
+ul.funnel-header-icons li.edit-name:focus
+{
+background: #eff3f6;
+}
+ul.funnel-header-icons li a.logo-icon,
+ul.funnel-header-icons li a.logo-icon i{
+	background: #39295d;
+	color:#ffffff;
+}
+ul.funnel-header-icons li.edit-name{
+	height: 50px;
+    line-height: 50px;
+    padding-left:15px;
+}
+ul.funnel-header-icons li.edit-name i.edit-icon{
+	font-size: 12px;
+}
+ul.funnel-header-icons li.edit-name span.max-limit,
+ul.funnel-header-icons li.edit-name span.max-limit:focus
+{    
+    max-width: 75px;
+	min-width:10px;
+    position: relative;
+    float: left;
+    height: 50px;
+	line-height:50px;
+	outline:none;
+}
+@media (min-width:992px){
+ul.funnel-header-icons li.edit-name span.max-limit{max-width: 250px !important;}
+}
+/* ellipsis-loading css*/
+.ellipsis-loading{width: 70px;line-height: 20px;}
+.ellipsis-loading:after {
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: bottom;
+	-webkit-animation: ellipsis steps(4,end) 1500ms infinite;      
+	animation: ellipsis steps(4,end) 1500ms infinite;
+	content: "\2026"; /* ascii code for the ellipsis character */
+	width: 0px;
+	font-size: 20px;
+}
+@keyframes ellipsis {
+  to {
+    width: 1.75em;    
+  }
+}
+
+@-webkit-keyframes ellipsis {
+  to {
+    width: 1.75em;    
+  }
+}
+/* Funnel Header css end*/
+/* Funnel Body Css */
+.funnel-bg{
+	background:#ced4d8 url(../images/funnel-bg.png) repeat;
+}
+.funnel-wrapper{
+	position: relative;
+	height: calc(100vh - 50px);
+	top: 50px;
+	width: 100%;
+	max-width: 100%;
+	overflow-y: auto;
+	display: -ms-flexbox !important;
+	display: flex !important;
+	flex-flow: column;
+	padding: 20px;
+}
+a.add-page-btn,
+a.add-page-btn:hover{
+	width: 30px;
+	height: 30px;
+	background: #31647f;
+	border-radius: 50%;
+	border: solid 1px #44a4d5;
+	line-height: 30px;
+	text-align: center;
+	font-size: 16px;
+	color: #74caf6;
+	text-decoration: none;
+	position: fixed;
+	top: 70px;
+	left: 20px;
+}
+a.back-page-btn,
+a.back-page-btn:hover{
+	width: 30px;
+	height: 30px;
+	background: #31647f;
+	border-radius: 50%;
+	border: solid 1px #44a4d5;
+	line-height: 30px;
+	text-align: center;
+	font-size: 16px;
+	color: #74caf6;
+	text-decoration: none;
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+}
+@media (min-width:768px){
+a.add-page-btn,
+a.add-page-btn:hover,
+a.back-page-btn,
+a.back-page-btn:hover	
+{
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 24px;
+}
+}
+
+/* funnel page template css */
+.template-wrapper{
+	position: absolute;
+	display: inline-block;
+}
+.template-section{
+	display: -webkit-inline-box !important;
+	display: -ms-inline-flexbox !important;
+	display: inline-flex !important;
+	-webkit-box-align: center !important;
+	-ms-flex-align: center !important;
+	align-items: center !important;
+}
+.template-section .page-template{
+	background-color: #ffffff;
+	box-shadow: 0px 0px 3px 0px rgba(169, 169, 169, 0.004);
+	width: 129px;
+	height: 164px;
+	position: relative;
+	padding: 5px;
+	display: -webkit-box !important;
+	display: -ms-flexbox !important;
+	display: flex !important;
+	-webkit-box-align: center !important;
+	-ms-flex-align: center !important;
+	align-items: center !important;
+}
+.template-section .template-size{
+	max-height: 154px;
+	max-width: 119px;
+	display: block;
+}
+/* Template Control css*/
+.template-section .template-control{
+	margin-left: 5px;
+	display: none;
+	transition: all .2s ease-in-out; 
+}
+.template-section .template-control .control-btn{
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	background: #ffffff;
+	box-shadow: 0px 0px 3px 0px rgba(169, 169, 169, 0.004);
+	display: flex;
+	text-align: center;
+	font-size: 12px;
+	list-style: none;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 5px;
+	color: #7f7c88;
+	text-decoration: none;
+}
+/* Template options css*/
+.template-wrapper .template-options{
+	width: 129px;
+	box-shadow: 0px 0px 3px 0px rgba(169, 169, 169, 0.004);
+	margin-top: 5px;
+	display: none;
+	transition: all .2s ease-in-out; 
+}
+.template-wrapper .template-options ul.options-btn li.nav-item a.nav-link{
+	font-size: 12px;
+	background: #ffffff;
+	border-radius: 0px;
+	color: #7f7c88;
+	padding: 5px 0px;
+	border: solid 1px #c6c6c6;
+	border-left: hidden;
+	transition: all .2s ease-in-out; 
+}
+.template-wrapper .template-options ul.options-btn li:first-child a.nav-link{
+	border-left: solid 1px #c6c6c6;
+}
+.template-wrapper .template-options ul.options-btn li.nav-item a.nav-link:hover{
+	transform: scale(1.2);
+	box-shadow: 0px 0px 3px 0px rgba(169, 169, 169, 0.004);
+	border: hidden;
+	color: #0092ff;
+}
+/* Template On hover Show Template control */
+.template-wrapper:hover .template-options,
+.template-wrapper:hover .template-control{
+	display: block;
+}
+/* SVG Drawline Css */
+.marker-color{color:#7f7c88;}

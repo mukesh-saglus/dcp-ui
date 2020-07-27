@@ -1,0 +1,132 @@
+/* automation Header css */
+.automation-header {
+	height: 50px;
+	background: #ffffff;
+	position: relative;
+	width: 100%;
+	z-index: 1093 !important;
+	box-shadow: 0px 1px 3px 0px rgba(107, 112, 114, 0.4);
+}
+ul.automation-header-icons{
+	padding:0;
+	margin:0;
+	height: 100%;
+}
+ul.automation-header-icons li{
+	float:left;
+	list-style:none;
+	font-size: 14px;
+	border-left: solid 1px #eff3f6;
+	height: 100%;
+}
+ul.automation-header-icons li:first-child{
+	border-left: hidden;
+}
+ul.automation-header-icons li .text-static{
+	font-size: 14px;
+	padding: 0px 15px;
+	height: 100%;
+	align-items: center;
+	display: flex;
+	color: #58bd1a;
+}
+ul.automation-header-icons li .text-static .tick-icon{
+	padding: 3px;
+	border:solid 2px #58bd1a;
+	color: #58bd1a;
+	border-radius: 50%;
+	font-size: 10px;
+}
+ul.automation-header-icons li a{
+    display: table-cell;
+    height: 50px;
+    text-align: center;
+    padding: 0px 15px;
+    text-decoration: none;
+    color: #34303f;
+    vertical-align: middle;
+	position: relative;
+	font-size: 14px;
+	
+}
+ul.automation-header-icons li a.disable-icon i,
+ul.automation-header-icons li a.disable-icon{
+	color: #eff3f6;
+	background: transparent !important;
+}
+
+ul.automation-header-icons li a i{color: #7f7c88;}
+ul.automation-header-icons li a:hover,
+ul.automation-header-icons li a:focus,
+ul.automation-header-icons li.edit-name:hover,
+ul.automation-header-icons li.edit-name:focus
+{
+background: #eff3f6;
+}
+ul.automation-header-icons li a.logo-icon,
+ul.automation-header-icons li a.logo-icon i{
+	background: #39295d;
+	color:#ffffff;
+}
+ul.automation-header-icons li.edit-name{
+	height: 50px;
+    line-height: 50px;
+    padding-left:15px;
+}
+ul.automation-header-icons li.edit-name i.edit-icon{
+	font-size: 12px;
+}
+ul.automation-header-icons li.edit-name span.max-limit,
+ul.automation-header-icons li.edit-name span.max-limit:focus
+{    
+    max-width: 75px;
+	min-width:10px;
+    position: relative;
+    float: left;
+    height: 50px;
+	line-height:50px;
+	outline:none;
+}
+@media (min-width:992px){
+ul.automation-header-icons li.edit-name span.max-limit{max-width: 250px !important;}
+}
+/* ellipsis-loading css*/
+.ellipsis-loading{width: 70px;line-height: 20px;}
+.ellipsis-loading:after {
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: bottom;
+	-webkit-animation: ellipsis steps(4,end) 1500ms infinite;      
+	animation: ellipsis steps(4,end) 1500ms infinite;
+	content: "\2026"; /* ascii code for the ellipsis character */
+	width: 0px;
+	font-size: 20px;
+}
+@keyframes ellipsis {
+  to {
+    width: 1.75em;    
+  }
+}
+
+@-webkit-keyframes ellipsis {
+  to {
+    width: 1.75em;    
+  }
+}
+
+/* Journey Lable */
+.journey-badge{
+	background:#39295d;
+	border-radius: 3px;
+	color:#ffffff;
+	font-size: 10px;
+	padding: 1px 3px;
+	position: relative;
+	top:8px;
+	display: inline-block;
+	float: left;
+	height: auto;
+	line-height: normal;
+	z-index:99;
+	margin-left: 6px;
+}

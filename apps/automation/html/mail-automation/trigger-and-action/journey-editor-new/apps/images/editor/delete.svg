@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #7f7c88;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="delete_copy_5" data-name="delete copy 5" class="cls-1" d="M8,10H2V4H8v6Zm2-7H0V2H2V0H8V2h2V3h0Z"/>
+</svg>

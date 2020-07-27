@@ -1,0 +1,247 @@
+/* New Solutions select checkbox css */
+.select-solution{
+	position: absolute;
+	top: 2px;
+	right: 0;
+	z-index: 9;
+}
+/* New Package Append Input Group css */
+/*.new-package-form .input-group input[type="text"],
+.new-package-form .input-group input[type="text"]:hover{border:1px solid #ced4d8 !important;}*/
+.new-package-form .input-group-append .select-btn-style,
+.new-package-form  .input-group-append .select-btn-style:hover{
+	border-top-left-radius: 0px !important;  
+	border-bottom-left-radius: 0px !important;
+	width:85px;
+}
+.package-price-dropdown .select-btn-style{
+	border: 0px;
+    height: auto !important;
+    width: 110px !important;
+	padding: 0px 10px !important;
+    max-width: 110px;
+    min-width: 110px;
+}
+.package-preview-text{font-weight: 500 !important;}
+@media (min-width:1200px){
+.package-preview-text{font-weight: 400 !important;}
+}
+.new-package-bg{
+	background:#14459f url(../images/package-bg.png) no-repeat;
+    background-size: cover;
+	height:auto;
+	border-radius:5px;
+	position:relative;
+}
+@media (min-width:768px){
+.new-package-bg{
+	height:268px;
+}
+}
+.new-package-bg a.edit-package-btn{
+	position:absolute;
+	top:0px;
+	right:0px;
+	background-color: #39295d;
+	padding:6px 8px;
+	color:#ffffff;
+}
+
+/* Preview And update DroDdown & icon css */
+.package-dropdown-h30 .bootstrap-select > .select-btn-style {
+	height: 30px !important;
+	padding: 4px 10px 4px 20px !important;}	
+.package-circle-icon{
+	background: #58bd1a;
+    border: 1px solid #58bd1a;
+    width: 18px;
+    min-width: 18px;
+    height: 18px;
+    text-align: center;
+    border-radius: 50%;
+    justify-content: center !important;
+    align-items: center !important;
+    display: flex !important;
+}	
+.package-dropdown-h30 .bootstrap-select > .select-btn-style .filter-option{text-align:center;}
+
+/* Single Account Summary Emoji icon CSS */
+.emoji-icon-width img{
+	width:40px;
+	min-width:40px;
+	max-width:40px;
+	height:40px;
+}
+.text-xs-justify{text-align:justify;}
+.feedback-tab-height{max-height:100%;}
+@media (min-width:768px){
+.emoji-icon-width img{
+	width:60px;
+	min-width:60px;
+	max-width:60px;
+	height:60px;
+}
+.feedback-tab-height{max-height:940px;}
+.text-xs-justify{text-align:left;}
+}
+
+/* Feebback table css */
+.emoji-width{
+	width:17px !important;
+	min-width:17px !important;
+	max-width:17px !important;
+	height:17px !important;
+	margin-right:10px;
+}
+.feedback-comment{max-width: 550px; white-space: normal;}
+
+.recover-deleted-data-bg{
+	background:url(../images/recover-data-bg-image.png) no-repeat;
+    background-size: cover;
+}
+
+/* Package Usage Page css */
+/* Usage progress circle css */
+.pie-title-center {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+
+.pie-value {
+  display: block;
+  position: absolute;
+  font-size: 14px;
+  height: 40px;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin-top: -20px;
+  line-height: 40px;
+}
+
+/* Package Add-on page css */
+.label-active.smart-checkbox-btn input[type="checkbox"]:checked + label {
+    color: #34303f !important;
+}
+
+/* Order Mgmt page css */
+ul.live-search-result{
+	margin: 0;
+	margin-top: 1px;
+	position: absolute;
+	top: 100%;
+	background: #ffffff;
+	border-radius: 5px;
+	border: solid 1px #ced4d8;
+	width: 100%;
+	padding: 1px;
+	z-index: 9;
+	max-height: 220px;
+	overflow-y: auto;
+}
+
+ul.live-search-result li{list-style: none; float:left; width: 100%;}
+
+ul.live-search-result li button.result-list,
+ul.live-search-result li button.result-list:focus{
+	padding: 10px 15px;
+	background: #ffffff;
+	border: 0;
+	box-shadow: none;
+	color: #7f7c88;
+	outline: none;
+	display: block;
+	width: 100%;
+	text-align: left;
+	cursor: pointer;
+}
+ul.live-search-result li button.result-list:hover{
+	color: #34303f;	
+}
+#order-results{
+	margin: 0;
+	margin-top: 1px;
+	position: absolute;
+	top: 100%;
+	background: #ffffff;
+	border-radius: 5px;
+	border: solid 1px #ced4d8;
+	width: 100%;
+	padding: 1px;
+	z-index: 9;
+	max-height: 220px;
+	overflow-y: auto;
+}
+
+div.order-result{
+	padding: 10px 15px;
+	background: #ffffff;
+	border: 0;
+	box-shadow: none;
+	color: #7f7c88;
+	outline: none;
+	display: block;
+	width: 100%;
+	text-align: left;
+	cursor: pointer;
+	
+}
+
+div.order-result:hover{
+	color: #34303f;	
+} 
+
+/* Template List Active and Inactive btn  css */
+.campaign-active,
+.campaign-active:hover,.campaign-active:focus
+{background:#ffff;outline:none; cursor:pointer;}
+.inactive-btn {color:#7f7c88;border:1px solid #7f7c88; cursor:pointer;}
+.templatesectionscroll{max-height: 520px;}
+/* Base Price Chart CSS */
+@media (min-width:768px){
+.absolute-text2{
+    position: absolute;
+    top: 38%;
+    right: -15px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 9;
+}}
+
+.small-checkbox-btn label {
+	font-size:12px !important;
+}
+.small-checkbox-btn label::before {
+    margin-left: -13px;
+    top: -2px;
+	height:15px;
+	width:15px;
+    border-radius: 3px;
+}
+.small-checkbox-btn label::after {
+    top: -3px;
+    margin-left: -14px;
+    font-size: 9px;
+}
+.hide-package,.show-package{display:none;}
+
+
+.add-custom-input{
+	background: #ffffff;
+    border: 1px solid #ced4d8;
+    border-radius: 0 5px 5px 0px;
+    border-left: none;
+    padding: 0 15px;
+}
+/* Add New Contact Modal popup CSS */
+.add-account-link:hover{
+	background: #eff3f6;
+}
+.add-account-link:hover .add-acc-hover-text{
+	color: #39295d;
+}
+/* View Package CSS */
+.segment-accordion .accordion .card-header.card-header-icon-remove{cursor: auto;}
+.segment-accordion .accordion .card-header.card-header-icon-remove:before{display: none;}

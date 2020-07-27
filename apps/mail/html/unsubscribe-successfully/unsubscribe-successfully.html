@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="google" content="notranslate" />
+<!-- Tell the browser to be responsive to screen width -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<!-- Page Title ----->
+<title>Successfully</title>
+<!-- Bootstrap 4 Stylesheet ----->
+<link rel="stylesheet" href="../../../../vendors/bootstrap/bootstrap.min.css">
+<!-- Common Css Stylesheet ----->
+<link rel="stylesheet" href="../../../../css/general.css">
+<link rel="stylesheet" href="../../../../css/elements.css">
+<!-- Smart Login Css Stylesheet ----->
+<link rel="stylesheet" href="../../../../apps/smart/css/login.css">
+<link rel="stylesheet" href="../../css/mail.css">
+</head>
+<body>
+<!---------- Smart Login Header ---------->
+<div class="sticky-fix">
+  <header>
+    <div class="s-login-header d-flex">
+      <div class="align-self-center"> <img src="../../../../images/saglus-logo.png" class="img-fluid mh-50" alt="Saglus Logo"> </div>
+    </div>
+  </header>
+</div>
+
+<!-------- Container Start -------->
+<section class="unsub-success-bg-top">
+<div class="unsub-success-bg-bottom">
+<div class="container">
+  <div class="row"> 
+    <!----- Content Area Start----->
+    <div class="col-12 col-md-8 col-lg-6 col-xl-5 p-xl0 smart-form mx-auto d-block text-center mt-md40 mt15 mb15 mb-md40"> 
+      <h4 class="w700">Unsubscribe Successful</h4>
+      <p class="f-14 d-gblue-clr mt8 mb15 mb-md30">You will no longer receive email marketing from this list. </p>
+	  <p class="f-16"> If you have a moment, please let us know why you unsubscribed </p>
+	  <div class="smart-form mt-md30 mt15 text-left">
+		  <div class="white-bg radius5 unSubDivhover l-gblue-border px-md20 py-md15 p15">
+				<div class="d-flex smart-radio-btn radio-strong-blue draft-radio">
+				<input name="chkunsubscribed" id="chkunsubscribed1" value="" type="radio">
+				<label class="mb0" for="chkunsubscribed1">I have received too many emails</label>
+				</div>
+		  </div>
+		  <div class="white-bg radius5 unSubDivhover l-gblue-border px-md20 py-md15 p15 mt10">
+				<div class="d-flex smart-radio-btn radio-strong-blue draft-radio">
+				<input name="chkunsubscribed" id="chkunsubscribed2" value="" type="radio">
+				<label class="mb0" for="chkunsubscribed2">I never signed up for this mailing list</label>
+				</div>
+		  </div>
+		  <div class="white-bg radius5 unSubDivhover l-gblue-border px-md20 py-md15 p15 mt10">
+				<div class="d-flex smart-radio-btn radio-strong-blue draft-radio">
+				<input name="chkunsubscribed" id="chkunsubscribed3" value="" type="radio">
+				<label class="mb0" for="chkunsubscribed3">The emails are inappropriate</label>
+				</div>
+		  </div>
+		  <div class="white-bg radius5 unSubDivhover l-gblue-border px-md20 py-md15 p15 mt10">
+				<div class="d-flex smart-radio-btn radio-strong-blue draft-radio">
+				<input name="chkunsubscribed" id="chkunsubscribed4" value="" type="radio">
+				<label class="mb0" for="chkunsubscribed4">The emails are spam and should be reported</label>
+				</div>
+		  </div>
+		  <div class="white-bg radius5 unSubDivhover l-gblue-border px-md20 py-md15 p15 mt10">
+				<div class="d-flex smart-radio-btn radio-strong-blue draft-radio">
+				<input name="chkunsubscribed" id="Othernsubscribe" value="" type="radio">
+				<label class="mb0" for="Othernsubscribe">Other</label>
+				</div>
+		  </div>
+	  </div>
+	  <div class="mt3" id="textareaUnSubDiv">
+	  <textarea class="form-control f-14" rows="5" placeholder="Type here"></textarea>
+	  </div>
+      <div class="form-group mb0 mt-md20 mt15 mb-md35">
+        <button type="submit" class="base-btn blue-btn btn-h50 btn-block f-16 f-md-18">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+<!-------- Container End ----------> 
+ 
+<!---- Common Jquery and Bootstrap 4 & Select Dropdown Jquery Files ------> 
+<script type='text/javascript' src="../../../../vendors/jquery/jquery.min.js"></script> 
+<script type='text/javascript' src="../../../../vendors/bootstrap/popper.min.js"></script> 
+<script type='text/javascript' src="../../../../vendors/bootstrap/bootstrap.min.js"></script> 
+<script type='text/javascript' src="../../../../js/script.js"></script>
+   <script>
+   
+$(document).ready(function(){ 
+$("#textareaUnSubDiv").hide();
+    $("input[name='chkunsubscribed']").click(function () {
+            if ($("#Othernsubscribe").is(":checked")) {
+                $("#textareaUnSubDiv").show();
+			
+            } else {
+                $("#textareaUnSubDiv").hide();
+            }
+        });
+});
+</script>
+</body>
+</html>

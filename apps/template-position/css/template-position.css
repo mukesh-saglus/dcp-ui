@@ -1,0 +1,55 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Roboto', sans-serif;
+	color: #000000;
+}
+/* Notification Header Template */
+.notification-header-top{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+}
+/* Footer Template */
+.notification-footer-bottom{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+}
+.responsive-img{
+	max-width: 100%;
+	display: block;
+}
+.right-block{
+	margin-left: auto;	
+}
+.brand-logo-right-positon a{text-decoration:none; display: block; margin-right:10px;}
+.brand-logo-left-positon a{text-decoration:none; display:block; margin-left:10px;}
+/* Notification Left Top Template */
+.notification-left-top{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+/* Notification Right Top Template */
+.notification-right-top{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+/* Notification Bottom Left Template */
+.notification-bottom-left{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+/* Notification Bottom Left Template */
+.notification-bottom-right{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}

@@ -1,0 +1,70 @@
+.design-gallery-grid.level-listing {
+	height: auto;
+	padding: 9px;
+	background: #ffffff;
+}
+.design-gallery-grid.level-listing img.img-fluid{
+	max-height: 130px;
+}
+a.design-gallery-grid.level-listing {
+	text-decoration: none;
+}
+.page-count-btn{
+	display: inline-block;
+	text-align: center;
+	float: right;
+	border-radius: 5px;
+	background: #ffffff;
+	border: 1px solid #ced4d8;
+	padding: 2px 6px;
+	font-size: 13px;
+	line-height: 120%;
+	margin: 0px 10px;
+}
+a.library-block{
+	text-decoration: none;
+}
+/* Preview & Publish PAge css */
+/* View Package CSS */
+.segment-accordion .accordion .card-header.card-header-icon-remove{cursor: auto;}
+.segment-accordion .accordion .card-header.card-header-icon-remove:before{display: none;}
+.segment-accordion .accordion.white-bg-accordion .card-body,
+.segment-accordion .accordion.white-bg-accordion .card-header{
+	background: #ffffff;
+}
+.cart-radio-btn .smart-radio-btn label::before {
+    width: 25px;
+    height: 25px;
+	background: #eff3f6;
+}
+.cart-radio-btn .smart-radio-btn label::after {
+    width: 11px;
+    height: 11px;
+    left: 7px;
+	top: 7px;
+}
+@media (min-width: 768px){
+.design-gallery-grid.level-listing {
+	height: 232px;
+	max-height: 232px;
+}
+.design-gallery-grid.level-listing img.img-fluid{
+	max-height: 212px;
+}
+}
+@media (min-width: 992px){
+.left-tab-fixed.fixed-tab{
+	width: 21.66%;
+}
+}
+@media (min-width: 1200px){
+.left-tab-fixed.fixed-tab{
+	width: 15.19%;
+}
+.preview-col-xl{
+	min-width: 20%;
+	max-width: 20%;
+}
+}
+/* Tooltip Z-index */
+.tooltip {z-index: 1092;}

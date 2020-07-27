@@ -1,0 +1,661 @@
+/* Create Newsletter Subscirber Block */
+.subscribers-section{border: solid 1px #ced4d8;}
+.subscribers-section .title-header{border-bottom: solid 1px #ced4d8; background: #eff3f6; }
+ul.mailing-group-list{margin: 0; padding: 0;}
+ul.mailing-group-list li{list-style: none; padding:15px 0px 15px 3px; border-bottom: solid 1px #ced4d8;}
+ul.mailing-group-list li:last-child{border-bottom: none; padding-bottom: 0px}
+
+ul.mailing-group-list li input:checked +label {
+   color: #34303f;
+}
+.personalization-drop .dropdown-toggle.select-btn-style{border-left: 0 !important;  border-top-left-radius: 0px !important; border-bottom-left-radius: 0px !important; min-width: 155px}
+
+/* Set Score Rule css */
+.segment-accordion .accordion .ScoreRule-collapsed:before{display: none;}
+@media(min-width: 1200px){ .m-w70{max-width:70px;}}
+
+/* List css */
+#AddContactModal a .add-import-hover:hover{
+    background: #eff3f6;
+}
+.add-import-hover:hover .import-text{
+    color: #39295d;
+} 
+
+
+.dot-subject-a{
+	background:#36d1fe;
+	width:10px;
+	height:10px;
+	border-radius:20px;
+	display:inline-block;
+}
+
+.dot-subject-b{
+	background:#fdc100;
+	width:10px;
+	height:10px;
+	border-radius:20px;
+	display:inline-block;
+}
+
+.dot-subject-final{
+	background:#ffffff;
+	width:10px;
+	height:10px;
+	border-radius:20px;
+	border:1px solid #d5dbde;
+	display:inline-block;
+}
+.flag-height  .selected-flag{   
+ height: 49px !important;
+ margin-top: 0px !important;}
+ 
+/* Add Manually css */
+.col-add-manually{width:100%;}
+@media (min-width:768px){
+.col-add-manually{width:32%;}
+}
+@media (min-width:1200px){
+.col-add-manually{width:24%;}
+}
+
+.gradient-btn,
+a.gradient-btn
+{color: #7f7c88 !important; 
+background-color: #ffff;
+border: solid 1px #513c80;
+cursor: auto;
+}
+
+.gradient-btn:hover,a.gradient-btn:hover,
+.gradient-btn:focus,a.gradient-btn:focus
+{background-color: #ffff;
+color: #7f7c88; 
+border: solid 1px #513c80;
+box-shadow: none; outline: none;}
+
+/* Ck Editor Page Css */
+.mail-editor-header {height: 50px;
+    background: #ffffff;
+    padding: 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    border-bottom: solid 1px #f0f0f0;}
+ul.mail-header-icons{
+	padding:0;
+	margin:0;
+}
+ul.mail-header-icons li{
+	float:left;
+	list-style:none;
+}
+ul.mail-header-icons li a{
+    display: table-cell;
+    height: 50px;
+    text-align: center;
+    padding: 0px 8px;
+    text-decoration: none;
+    color: #34303f;
+    vertical-align: middle;
+	position: relative;
+}
+ul.mail-header-icons li a i{color: #7f7c88;}
+ul.mail-header-icons li a:hover,
+ul.mail-header-icons li a:focus,
+ul.mail-header-icons li.edit-name:hover,
+ul.mail-header-icons li.edit-name:focus
+{
+background: #eff3f6;
+}
+ul.mail-header-icons li a.saglus-icon,
+ul.mail-header-icons li a.saglus-icon i{
+background: #39295d;
+color:#ffffff;
+}
+ul.mail-header-icons li.edit-name{
+	height: 50px;
+    line-height: 50px;
+    padding-left:15px;
+}
+ul.mail-header-icons li.edit-name span.max-limit,
+ul.mail-header-icons li.edit-name span.max-limit:focus
+{    
+    max-width: 75px;
+	min-width:10px;
+    position: relative;
+    float: left;
+    height: 50px;
+	line-height:50px;
+	outline:none;
+}
+@media (min-width:992px){
+ul.mail-header-icons li.edit-name span.max-limit{max-width: 250px !important;}
+}
+/* Attachment label cricle */
+span.badge-label{
+	position: absolute;
+	top: 4px;
+	right: 5px;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	background: #39295d;
+	font-size: 11px;
+	font-weight: 500;
+	color: #ffffff;
+}
+
+#ckeditor-frame{
+	top: 49px !important;
+	position: fixed;
+	left: 0;
+	right: 0px;
+} 
+#ckeditor-frame .cke_maximized{
+	top: 50px !important;
+	z-index: 0 !important;
+} 
+
+/* Add Contacts Manually teaxtarea height */
+.mail-textarea-height  textarea,.mail-textarea-height  textarea:hover{max-height:265px;}
+
+/* A/B Testing Header CSS */
+.plaintext-editor-dropdown .dropdown-menu{border: 1px solid #ced4d8 !important; border-radius:0px;}
+.plaintext-editor-dropdown > .dropdown-toggle::after {margin-left:10px;}
+.plaintext-editor-dropdown ul li{
+width: 100%;
+margin: 0;
+padding: 0;
+border: 0;}
+.plaintext-editor-dropdown ul li a:hover,
+.plaintext-editor-dropdown ul li a:focus{background:transparent;color: #16181b;}
+.plaintext-editor-dropdown  ul li a{
+	padding: 10px 10px;
+	color: #7f7c88;
+	cursor: pointer;
+	height:40px;
+	text-align:left;
+	white-space: normal;
+	word-break: break-all;
+}
+.plaintext-editor-dropdown.personalization-dropdown  ul li a{
+	display: block !important;
+}
+
+/* UnSubscribe Successful CSS */
+.unsub-success-bg-top{background: url(../images/unsubsuccess-bg-top.png) no-repeat center top; background-size:100%;}
+.unsub-success-bg-bottom{background: url(../images/unsubsuccess-bg-bottom.png) no-repeat center bottom; background-size:100%;}
+.unsub-success-bg-top .unSubDivhover:hover
+{-webkit-box-shadow: 0px 0px 15.4px 0.8px rgba(28, 28, 28, 0.1);
+-moz-box-shadow: 0px 3px 5px 0px rgba(28,28,28,0.1);
+box-shadow: 0px 3px 5px 0px rgba(28,28,28,0.1);}
+/* Mail Footer Setting CSS */
+.business-logo-img {
+    width: 150px;
+    height: 80px;
+    border: 1px solid #ced4d8;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.mail-footer-form input[type="text"],
+.mail-footer-form input[type="text"]:hover, 
+.mail-footer-form input[type="text"]:focus {
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border: 1px solid #ced4d8;
+}
+.social-mail-icon-size{   
+    height: 20px;
+    width: 20px;
+    min-width: 20px;
+    display: inline-block;
+    border-radius: 50%;}	
+.mail-footer-form .disable  input[disabled],
+.mail-footer-form .disable .input-group-text,
+.mail-footer-form .disable input[disabled]:hover,
+.mail-footer-form  .disable input[disabled]:focus{
+	background: #eff3f6; 
+	color: #8fa1b4; 
+	border: solid 1px #eff3f6;
+	box-shadow: none; 
+	outline: none;
+	cursor: not-allowed}
+.mail-footer-form .disable .social-mail-icon-size{
+    background: #ced4d8;
+}
+.mail-footer-form .fa-square{
+	font-size:20px;
+}
+/*  Footer Color theme icon */
+.white-sqaure{background: #ffffff; border:solid 1px #ced4d8; color:#ffffff; margin-right: 15px; font-size: 18px !important; width: 20px; }
+.grey-sqaure{background: #eff3f6; border:solid 1px #ced4d8; color:#eff3f6; margin-right: 15px; font-size: 18px !important; width: 20px; }
+.black-sqaure{background: #34303f; border:solid 1px #34303f; color:#34303f; margin-right: 15px; font-size: 18px !important; width: 20px; }
+
+/* Mapping Table Style Css */
+.mapping-table-style table thead tr th:first-child{
+	padding-left: 20px;
+}
+.mapping-table-style table thead tr th:last-child{
+	padding-right: 20px;
+}
+.mapping-table-style table thead tr th
+{padding: 20px 10px; }
+.mapping-table-style table thead tr td
+{padding: 15px 10px; }
+
+.mapping-table-style table thead tr .th-mw200{min-width: 200px;}
+
+/* Winning Variant Border CSS */
+.ab-test-border-top{ border-top: 1px solid #cacfd2;}
+.ab-test-border{ border: 1px solid #cacfd2;}
+
+/* Boostrap Slider Range Css */
+
+.slider-theme .slider-selection {
+	background: rgba(147,232,95,1);
+	background: -moz-linear-gradient(left, rgba(147,232,95,1) 0%, rgba(105,200,46,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(147,232,95,1)), color-stop(100%, rgba(105,200,46,1)));
+	background: -webkit-linear-gradient(left, rgba(147,232,95,1) 0%, rgba(105,200,46,1) 100%);
+	background: -o-linear-gradient(left, rgba(147,232,95,1) 0%, rgba(105,200,46,1) 100%);
+	background: -ms-linear-gradient(left, rgba(147,232,95,1) 0%, rgba(105,200,46,1) 100%);
+	background: linear-gradient(to right, rgba(147,232,95,1) 0%, rgba(105,200,46,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93e85f', endColorstr='#69c82e', GradientType=1 );
+	box-shadow: none !important;
+	border-radius: 5px;
+}
+.slider-theme .slider.slider-horizontal .slider-selection,
+.slider-theme .slider.slider-horizontal .slider-track-low,
+.slider-theme .slider.slider-horizontal .slider-track-high {
+    height: 110%;
+    top: -1px;
+    bottom: 0px;
+    left: -5px;
+    margin-left: -1px;
+}
+.slider-theme .slider-handle{
+	background: rgba(93,146,252,1);
+	background: -moz-linear-gradient(-45deg, rgba(93,146,252,1) 0%, rgba(169,93,223,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(93,146,252,1)), color-stop(100%, rgba(169,93,223,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(93,146,252,1) 0%, rgba(169,93,223,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(93,146,252,1) 0%, rgba(169,93,223,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(93,146,252,1) 0%, rgba(169,93,223,1) 100%);
+	background: linear-gradient(135deg, rgba(93,146,252,1) 0%, rgba(169,93,223,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5d92fc', endColorstr='#a95ddf', GradientType=1 );
+	top: -13px;
+	width: 41px;
+	height: 41px;
+	border-width: 2px;
+	border-color: rgb(239, 243, 246);
+	border-style: solid;
+	box-shadow: none;
+	
+}
+
+.slider-theme .slider-handle:before{
+	content: "\a405";
+	font-family: 'icomoon' !important;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	color: #ffffff;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	margin: 0 auto;
+	padding: 11px 0px 0px 12px;
+	display: inline-block;
+	font-size: 14px;
+}
+.slider-theme .slider.slider-horizontal .slider-tick,
+.slider-theme .slider.slider-horizontal .slider-handle{
+	margin-left: -20px;
+}
+.slider-theme .slider .tooltip.top {
+    margin-top: -45px;
+}
+
+.slider-theme .slider.slider-horizontal{width:100%;}
+.slider-theme .slider.slider-horizontal .slider-track {
+	height: 20px;
+	width: 100%;
+	margin-top: 0;
+	top: 0%;
+	left: 0;
+	border-radius: 5px;
+	box-shadow: none !important;
+	border: solid 1px #ced4d8;
+	background: #ffffff;
+}
+
+.slider-theme .tooltip.in {
+    filter: alpha(opacity=90);
+    opacity: .9;
+}
+.slider-theme	.tooltip-arrow {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-color: transparent;
+	border-top-color: transparent;
+	border-style: solid;
+}
+.slider-theme .tooltip.top .tooltip-arrow {
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px 5px 0;
+    border-top-color: #000;
+}
+
+/* Import Contact Mapping Table data Disable CSS  */
+.mapping-table-style tbody tr.table-blur-data td,
+.mapping-table-style tbody tr.table-blur-data td a.p-blue-clr{
+	color: transparent !important;
+	text-shadow: 0 0 4px #aaa;
+	-webkit-user-select: none;
+	-moz-user-select: none; 
+	-ms-user-select: none; 
+	user-select: none; 
+}
+.mapping-table-style tbody tr.table-blur-data td a.p-blue-clr,
+.mapping-table-style tbody tr.table-blur-data td a{cursor: no-drop;}
+.mapping-table-style tbody tr.table-blur-data:hover {
+    box-shadow: none;
+}
+.mapping-table-style .bootstrap-select .dropdown-menu .inner.scroll-theme {
+    max-height: 160px !important;
+}
+/* Inline Editor Attachment Modal Popup CSS */
+.attachment-scroll{max-height: 200px; overflow-y: auto;}
+.attachment-file-list{
+	background-color: #eff3f6;
+	padding: 8px 15px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	-webkit-box-align: center!important;
+	-ms-flex-align: center!important;
+	align-items: center!important;
+	-webkit-box-pack: justify!important;
+	-ms-flex-pack: justify!important;
+	justify-content: space-between!important;
+	display: -webkit-box!important;
+	display: -ms-flexbox!important;
+	display: flex!important;
+}
+/* list successfully cleaned Modal PopUp CSS */
+.successfully-cleaned-list{
+	background: #eff3f6;
+	border: 1px solid #ced4d8;
+	border-radius: 5px;
+	padding: 15px 10px;
+	text-align: center;
+}
+.spam-list{
+	background: #eff3f6;
+    border-radius: 5px;
+    min-width: 100px;
+    display: inline-block;
+    padding: 8px;
+}
+@media (min-width: 768px){
+ul.mail-header-icons li a{
+    padding: 0px 15px;
+}
+.attachment-file-list { padding: 8px 20px;}
+.successfully-cleaned-list{
+	padding: 20px 10px;
+}
+}
+/* ToolTip Hover Effect CSS */
+.tooltip {pointer-events: none;}
+
+/* List Table Paage CSS */
+a.list-successfully-icon{
+	background: transparent;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    padding: 6px 8px;
+    font-size: 12px;
+	text-decoration: none;
+}
+a.list-successfully-icon:hover{
+	background: #eff3f6;
+    border: 1px solid #ced4d8;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    padding: 6px 8px;
+    font-size: 12px;
+	text-decoration: none;
+}
+.cleaned-list-icon{
+	background: #ffffff;
+	border-radius: 50%;
+	height: 53px;
+	width: 53px;
+	color: #39295d;
+	font-size:27px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin: auto;
+}
+.list-popup-border-top{ border-top: 1px solid #eff3f6;}
+/* Plain Text Editor CSS */
+.plain-header-list{
+	border-left: 1px solid #eff3f6;
+}
+.dcp-plain-text-header-fixed{ height: 50px !important;}
+/* Add Contacts Manually teaxtarea height */
+.plain-text-editor-textarea textarea,
+.plain-text-editor-textarea textarea:hover,
+.plain-text-editor-textarea textarea:focus, 
+.plain-text-editor-textarea textarea:active{
+	height: calc(100vh - 50px);
+    max-height: 100%;
+	border: 0px;
+}
+a.design-gallery-grid{ text-decoration: none;}
+ul.mail-header-icons .plaintext-editor-dropdown li a.dropdown-item {
+    padding: 8px 15px;
+}
+@media (min-width: 768px){
+	.plain-text-editor-textarea textarea,
+	.plain-text-editor-textarea textarea:hover,
+	.plain-text-editor-textarea textarea:focus, 
+	.plain-text-editor-textarea textarea:active{
+		padding: 30px 90px;
+	}
+}
+.preview-container{
+	background: #eff3f6;
+	padding: 15px;
+}
+a.sms-attachment-btn{
+    background: #eff3f6;
+    border: 1px solid #ced4d8;
+    border-radius: 5px;
+    color: #85838e;
+    font-size: 15px;
+    padding: 9px 11px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+.sms-input-field-append {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+.sms-input-field-append .emoji-icon,
+.sms-input-field-append .emoji-icon:hover,
+.sms-input-field-append .emoji-icon:focus {
+    border: 1px solid #ced4d8;
+    border-left: none;
+    border-radius: 0px 5px 5px 0px;
+    background: #ffffff;
+    padding: 7px 5px !important;
+    width: 45px !important;
+    height: 40px;
+	outline: none;
+}
+.sms-input-field-append .emojiPickerIconWrap{
+	width: auto;
+}
+.sms-input-field-append .bootstrap-select > .select-btn-style,
+.sms-input-field-append .bootstrap-select > .select-btn-style:hover, 
+.sms-input-field-append .bootstrap-select > .select-btn-style:focus{
+	 border-radius: 5px 0px 0px 5px !important;
+}
+.smart-form textarea.sms-editor-input-field, 
+.smart-form textarea.sms-editor-input-field:hover
+{
+	height: 250px;
+	max-height: 250px;
+}
+ul.device-preview {
+    border: solid 1px #ced4d8;
+    display: inline-flex;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #eff3f6;
+}
+ul.device-preview li a {
+    padding: 8px 11px;
+    display: inline-block;
+    color: #7f7c88;
+    font-size: 18px;
+    text-decoration: none;
+}
+ul.device-preview li:first-child{border-right: solid 1px #ced4d8;}
+ul.device-preview li a.active, 
+ul.device-preview li.active a {
+    background: #ffffff;
+    color: #7f7c88;
+}
+.iphone-wrapper{
+	background: url(../images/iphone-image.png) no-repeat;
+    width: 267px;
+    height: 510px;
+    margin: auto;
+    padding: 32px 15px 62px 20px;
+	overflow: hidden;
+}
+.iphone-inner-container{
+    max-height: 415px;
+	height: 100%;
+	overflow: auto;
+}
+.android-wrapper{
+	background: url(../images/android-image.png) no-repeat;
+    width: 267px;
+    height: 510px;
+    margin: auto;
+    padding: 100px 20px 105px 25px;
+	overflow: hidden;
+}
+.android-inner-container{
+    max-height: 302px;
+	height: 100%;
+	overflow: auto;
+}
+
+.message-backround{
+	position: relative;
+	background: #d6ecfc;
+	border: 1px solid #c9e6fb;
+	padding: 12px;
+	font-size: 12px;
+	border-radius: 10px;
+	line-height: 120%;
+    word-break: break-word;
+}
+.message-backround:after {
+	content: " ";
+    position: absolute;
+    right: -9px;
+    bottom: 15px;
+    border-top: 10px solid transparent;
+    border-right: none;
+    border-left: 10px solid #d6ecfc;
+    border-bottom: 10px solid transparent;
+}
+img.dummy-image-size{
+	height: 23px;
+	width: 23px;
+	border-radius: 50%;
+}
+a.file-preview-btn {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    border-radius: 3px;
+    border: solid 1px #7f7c88;
+    color: #7f7c88;
+    text-align: center;
+    font-size: 14px;
+	text-decoration: none;
+}
+a.file-preview-btn:hover {
+    border-color: #34303f;
+    color: #34303f;
+}
+a.library-block{
+	text-decoration: none;
+}
+@media (min-width: 768px){
+.preview-container{
+	padding: 30px 30px 0px 30px;
+	min-height: calc(100vh - 50px)
+}
+.smart-form textarea.sms-editor-input-field, 
+.smart-form textarea.sms-editor-input-field:hover{
+	font-size: 16px !important;
+}
+.smart-form textarea.sms-editor-input-field, 
+.smart-form textarea.sms-editor-input-field:hover
+{
+	height: 350px;
+	max-height: 350px;
+}
+}
+@media (min-width: 992px){
+.smart-form textarea.sms-editor-input-field, 
+.smart-form textarea.sms-editor-input-field:hover
+{
+	height: 445px;
+	max-height: 445px;
+}
+}
+
+/*  Moblie Number Dropdown Height 40 CSS */
+.intl-tel-input-h40 .intl-tel-input.allow-dropdown .selected-flag, 
+.intl-tel-input-h40 .intl-tel-input.separate-dial-code .selected-flag, 
+.intl-tel-input-h40 .intl-tel-input.separate-dial-code .selected-flag:focus {
+    margin-top: 2px;
+	height: 34px;
+}

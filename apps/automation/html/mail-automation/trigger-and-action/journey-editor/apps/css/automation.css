@@ -1,0 +1,235 @@
+.modal.automation-right-modal .modal-dialog {
+	position: fixed;
+	margin: auto;
+	width: 95%;
+	max-width: 100%;
+	height: calc(100% - 50px);
+	top: 50px;
+	-webkit-transform: translate3d(0%, 0, 0);
+	-ms-transform: translate3d(0%, 0, 0);
+	-o-transform: translate3d(0%, 0, 0);
+	transform: translate3d(0%, 0, 0);
+}
+.modal.automation-right-modal .modal-content {
+    height: 100%;
+    overflow-y: auto;
+    border-radius: 0px;
+    border: 0px;
+}
+/*Right*/
+.modal.automation-right-modal.fade .modal-dialog {
+	right: -320px;
+	-webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+	-moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+	-o-transition: opacity 0.3s linear, right 0.3s ease-out;
+	transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+.modal.automation-right-modal.fade.show .modal-dialog { right: 0;}
+.automation-design-section{ margin-top: 15px;}
+
+@media (min-width: 768px){
+.modal.automation-right-modal .modal-dialog {
+	width: calc(100% - 220px);
+	max-width: calc(100% - 220px);
+}
+.automation-design-section{     
+	margin-top: 30px;
+    max-height: calc(100vh - 320px);
+	overflow: hidden;
+    margin-bottom: 10px;
+}
+.modal-scrollbar{ height: calc(100% - 101px); overflow: auto;}
+}
+@media (min-width: 1200px){
+.contact-scrollbar{     
+    max-height: calc(100vh - 381px);
+	overflow: hidden;
+}
+}
+/* Automation Common Modal CSS End */
+.schedule-Section .select-btn-style {
+    min-width: 60px;
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+}
+.personalization-drop .dropdown-toggle.select-btn-style {
+    border-left: 0 !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    min-width: 155px;
+}
+.design-selection-img{
+    position: relative;
+    border: solid 1px #ced4d8;
+    height: 140px;
+    max-height: 140px;
+    overflow: hidden;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.design-selection-img img{ max-height: 140px;}
+a.automation-preview-btn, 
+a.automation-delete-btn {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    border-radius: 3px;
+    border: solid 1px #7f7c88;
+    color: #7f7c88;
+    text-align: center;
+    font-size: 14px;
+}
+a.automation-delete-btn {font-size: 11px;}
+a.automation-delete-btn:hover {
+    border-color: #ff2332;
+    color: #ff2332;
+}
+a.automation-preview-btn:hover {
+    border-color: #34303f;
+    color: #34303f;
+}
+.automation-table tr td{padding: 0px 15px 8px;}
+
+/*Broadcast CSS*/
+.d-green-clr{
+	color:#64c529;
+}
+
+.auto-img .project-list-view .hover-img {
+    height: 150px;
+    max-height: 150px;
+}
+.auto-img .project-list-view .hover-img img {
+    max-height: 154px;
+}
+
+.crosspos{position: absolute; top:7px; right: 9px;}
+a.crossicon{
+	color: #748089;
+    text-decoration: none;
+    text-align: right;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+a.crossicon span {
+    margin-right: 8px;
+    font-size: 12px;
+    color: #34303f;
+    line-height: 120%;
+}
+.blockheight{
+	height: calc(100vh - 300px);
+	overflow-y:scroll;
+}
+.modal-img-size {
+    width: 95%;
+}
+@media (min-width: 1200px){
+.modal-img-size {
+    width: 800px;
+}
+}
+
+@media(min-width:768px){
+.hautobox{
+/*max-height: 355px;*/
+max-height: calc(100vh - 305px);
+}
+}
+.hautobox .mCustomScrollBox{
+	width:100%;
+}
+.gradient-btn,
+a.gradient-btn
+{color: #7f7c88 !important; 
+background-color: #ffffff;
+border: solid 1px #513c80;
+cursor: auto;
+}
+.gradient-btn:hover,a.gradient-btn:hover,
+.gradient-btn:focus,a.gradient-btn:focus
+{background-color: #ffffff;
+color: #7f7c88; 
+border: solid 1px #513c80;
+box-shadow: none; outline: none;}
+/* Create Newsletter Subscirber Block */
+.subscribers-section{border: solid 1px #ced4d8;}
+.subscribers-section .title-header{border-bottom: solid 1px #ced4d8; background: #eff3f6; }
+ul.mailing-group-list{margin: 0; padding: 0;}
+ul.mailing-group-list li{list-style: none; padding:15px 0px 15px 3px; border-bottom: solid 1px #ced4d8;}
+ul.mailing-group-list li:last-child{border-bottom: none; padding-bottom: 0px}
+
+ul.mailing-group-list li input:checked +label {
+   color: #34303f;
+}
+.personalization-drop .dropdown-toggle.select-btn-style{border-left: 0 !important;  border-top-left-radius: 0px !important; border-bottom-left-radius: 0px !important; min-width: 155px}
+
+@media (min-width: 992px){
+.training-videos-col {
+    max-width: 20%;
+    min-width: 20%;
+}}
+
+/* Desing Selection page css */
+@media (min-width:992px){
+.design-side-tab{
+	-webkit-animation-duration: 0.5s;
+    animation-duration: 0.15s;
+    -webkit-transition: 0.15s;
+    transition: 0.15s;
+}
+.design-side-tab.fixed-tab{
+	position:fixed;
+	top:0px;
+	padding-top:15px!important;
+	animation-direction: normal;
+	animation-duration: 0.15s;
+	-webkit-animation-name: stickySlideDown;
+	animation-name: stickySlideDown;	
+	-webkit-transition: none;
+	transition: none;
+}
+.sticky-design-filter.fixed-filter{
+	position: -webkit-sticky;
+	position: -moz-sticky;
+	position: -ms-sticky;
+	position: -o-sticky;
+	position: sticky;
+	top:0px;
+	padding-top:15px!important;
+	padding-bottom:15px!important;
+	background:#ffffff;
+	z-index:9;
+}
+}
+
+/* Journey Action error message css */
+.joint-element .journey-error > .trigger-header{
+   stroke:#ff2332;
+   stroke-width:1px;
+}
+
+.joint-element .journey-error > .trigger-body-text{
+   stroke:#ff2332;
+   stroke-width:1px;
+   stroke-dasharray: 0,43,42;
+}
+.joint-element .journey-error > .trigger-circle{
+	stroke:#ff2332;
+   stroke-width:1px;
+   stroke-dasharray: 0,43,42;
+}
+.joint-element .journey-error > .trigger-connect-circle{
+	stroke:#ff2332;
+   stroke-width:1px;
+   stroke-dasharray:20,33,0;
+}

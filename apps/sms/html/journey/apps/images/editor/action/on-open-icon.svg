@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="13" viewBox="0 0 14 13">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #7f7c88;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="open_mail_copy_4" data-name="open_mail copy 4" class="cls-1" d="M14,4.789a1.514,1.514,0,0,0-.63-1.163L7,0,0.63,3.626A1.514,1.514,0,0,0,0,4.789v6.842A1.389,1.389,0,0,0,1.4,13H12.6A1.389,1.389,0,0,0,14,11.631V4.789ZM7,8.21L1.189,4.652,7,1.368l5.81,3.284Z"/>
+</svg>

@@ -1,0 +1,426 @@
+/* Create New Funnel Modal Popup CSS */
+.tooltip {z-index: 1092;}
+.funnel-addon-icon input[type="text"]:hover, .funnel-addon-icon input[type="text"]:focus{
+	border-top-left-radius: 0px !important;
+	border-bottom-left-radius: 0px !important;
+	border: 1px solid #ced4d8;
+}
+/* Funnel Location PiChaer CSS */
+#topcitiespie,
+#citiesconversionpie,
+#citiesuaudiencepie,
+#citiesconversionratepie
+{width: 100%;height: 400px;}
+/* Traffic Graph Height */
+#conversionleadgraph{height: 430px;}
+
+/* Funnel Body Css */
+.funnel-bg{
+	background:#ced4d8 url(../images/funnel-bg.png) repeat;
+}
+.funnel-wrapper{
+	position: relative;
+	height: calc(100vh - 50px);
+	top: 50px;
+	width: 100%;
+	max-width: 100%;
+	overflow-y: auto;
+	display: -ms-flexbox !important;
+	display: flex !important;
+	flex-flow: column;
+	padding: 20px;
+}
+a.add-page-btn,
+a.add-page-btn:hover{
+	width: 30px;
+	height: 30px;
+	background: #31647f;
+	border-radius: 50%;
+	border: solid 1px #44a4d5;
+	line-height: 30px;
+	text-align: center;
+	font-size: 16px;
+	color: #74caf6;
+	text-decoration: none;
+	position: fixed;
+	top: 70px;
+	left: 20px;
+}
+a.back-page-btn,
+a.back-page-btn:hover{
+	width: 30px;
+	height: 30px;
+	background: #31647f;
+	border-radius: 50%;
+	border: solid 1px #44a4d5;
+	line-height: 30px;
+	text-align: center;
+	font-size: 16px;
+	color: #74caf6;
+	text-decoration: none;
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+}
+@media (min-width:768px){
+a.add-page-btn,
+a.add-page-btn:hover,
+a.back-page-btn,
+a.back-page-btn:hover	
+{
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 24px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Funnel Preview Modal Popup CSS*/
+
+.modal-pfunnel-size{width: 95%; max-width: 100%; position: fixed;top: 0;left: 0;right: 0;bottom: 0;z-index: 1091;}
+
+@media (min-width: 1200px) {
+.modal-pfunnel-size{width: 969px; max-width: 100%; }
+}
+
+.varient-image-height img,.temp-small-height img{max-height: 63px;}
+
+@media (min-width: 240px) {
+.funnel-image-height img{max-height: 200px;}	
+}
+
+@media (min-width: 768px) {
+.funnelsection{padding:20px 20px 20px 30px !important;}
+.funnel-image-height img{max-height: 300px;}
+.funnel-image-height{min-height: 300px;}
+}
+
+@media (min-width:992px) {
+.funnel-image-height img{max-height: 437px;}
+.funnel-image-height{min-height: 437px;}
+}
+
+.showcircle{border-radius: 50%;background-color: rgb(255, 255, 255);width: 31px;height: 31px;color:#7f7c88;border:2px solid rgb(127, 124, 136);text-align:center;padding: 5px 0;text-decoartion:none;line-height: 10px;margin: 0 auto;}
+
+.showcircle:hover{color:#39295d;border:2px solid #39295d;}
+
+.fpreview-carousel .carousel-control-prev{
+	-ms-flex-pack: start!important;
+	justify-content: flex-start!important;
+}
+.fpreview-carousel .carousel-control-next{
+	-ms-flex-pack: end!important;
+	justify-content: flex-end!important;
+}
+.fpreview-carousel .carousel-control-next i,
+.fpreview-carousel .carousel-control-prev  i{
+    border-radius: 3px;
+    background-color: rgb(221, 221, 221);
+	width: 10px;
+    height: 64px;
+	font-size: 7px;
+	color: #293239;
+	-webkit-box-align: center!important;
+	-ms-flex-align: center!important;
+	align-items: center!important;
+	-webkit-box-pack: center!important;
+	-ms-flex-pack: center!important;
+	justify-content: center!important;
+	display: -webkit-box!important;
+	display: -ms-flexbox!important;
+	display: flex!important;
+}
+@media (max-width:767px){
+.fpreview-carousel{
+	padding-left: 40px !important;
+	padding-right: 40px!important;
+}
+.fpreview-carousel .mobile-col{
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 10px;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+}
+@media(min-width:768px){
+.fpreview-carousel{
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+.fpreview-carousel .carousel-control-next,
+.fpreview-carousel .carousel-control-prev{
+	opacity: 1;
+	width: auto;
+}
+}
+
+@media(min-width:992px){
+.fpreview-carousel .mobile-col{max-width: 20%;} 
+}
+
+.fpreview-carousel .carousel-control-prev {
+    left: 50px;
+}
+
+.fpreview-carousel .carousel-control-next {
+    right: 50px;
+}
+
+.fpreview-img a img, .fvarient-img a img{
+    border: 1px solid transparent;
+}
+
+.fpreview-img a img:hover, .fpreview-img.factive-link a img ,.fvarient-img a img:hover, .fvarient-img.fvactive-link a img{
+    border: 1px solid #5a28ad;
+}
+
+
+@media (min-width: 768px) {
+	
+    .fpreview-carousel .carousel-item {
+        margin-right: 0;
+    }
+
+    /* show 2 items */
+    .fpreview-carousel .carousel-inner .active + .carousel-item {
+        display: block;
+    }
+    
+    .fpreview-carousel .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .fpreview-carousel .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item {
+        transition: none;
+    }
+
+    .fpreview-carousel .carousel-inner .carousel-item-next {
+      position: relative;
+      transform: translate3d(0, 0, 0);
+    }
+    
+    /* left or forward direction */
+    .fpreview-carousel .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+     .carousel-item-next.carousel-item-left + .funnel-item,
+     .carousel-item-next.carousel-item-left + .funnel-item + .funnel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    } 
+    
+    /* farthest right hidden item must be abso position for animations */
+    .fpreview-carousel .carousel-inner .carousel-item-prev.carousel-item-right {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    
+    /* right or prev direction */
+    .fpreview-carousel .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    .carousel-item-prev.carousel-item-right + .funnel-item,
+   .carousel-item-prev.carousel-item-right + .funnel-item + .funnel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+
+}
+
+/*MD*/
+@media (min-width: 768px) {
+
+    /* show 3rd of 3 item slide */
+  .fpreview-carousel .carousel-inner .active + .carousel-item + .carousel-item {
+        display: block;
+    }
+ 
+    .fpreview-carousel .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+        transition: none;
+    }
+  
+    
+    .fpreview-carousel .carousel-inner .carousel-item-next {
+      position: relative;
+      transform: translate3d(0, 0, 0);
+    }
+    
+    
+    /* left or forward direction */
+    .carousel-item-next.carousel-item-left + .funnel-item + .funnel-item + .funnel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    
+    /* right or prev direction */
+    .carousel-item-prev.carousel-item-right + .funnel-item + .funnel-item + .funnel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+
+}
+
+
+/*LG */
+@media (min-width: 768px) {
+
+    /* show 4th item */
+    .fpreview-carousel .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item {
+        display: block;
+    }
+    
+    .fpreview-carousel .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
+        transition: none;
+    }
+    
+    /* Show 5th slide on lg if col-lg-3 */
+    .fpreview-carousel .carousel-inner .active.col-lg-3.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -25%;  /*change this with javascript in the future*/
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    
+    /* left or forward direction */
+    .fpreview-carousel .carousel-item-next.carousel-item-left + .funnel-item + .funnel-item + .funnel-item + .funnel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    
+    /* right or prev direction //t - previous slide direction last item animation fix */
+    .fpreview-carousel .carousel-item-prev.carousel-item-right + .funnel-item + .funnel-item + .funnel-item + .funnel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+
+}
+
+
+/*LG 5th  -  if you want a carousel with 5 slides */
+@media (min-width: 992px) {
+
+    /* show 5th */
+   .fpreview-carousel .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        display: block;
+    }
+
+    .fpreview-carousel .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item + .carousel-item{
+      transition: none;
+    }
+  
+  /*show 6th slide for animation when its a 5 slides carousel */
+      .fpreview-carousel .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -16.666666666%;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+  }
+  
+   /* forward direction > */
+  .fpreview-carousel .carousel-item-next.carousel-item-left + .funnel-item + .funnel-item + .funnel-item + .funnel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+  
+    /* prev direction < last item animation fix */
+   .fpreview-carousel .carousel-item-prev.carousel-item-right + .funnel-item + .funnel-item + .funnel-item + .funnel-item + .funnel-item{
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+
+}
+@media(min-width: 768px){
+.funnel-create-own-design{padding: 78px 50px !important;}
+}
+/* Page selection Modal pop_up CSS */
+.page-selection-link{
+	border: 1px solid #ced4d8;
+	background: #ffffff;
+	border-radius: 5px;
+	padding: 15px;
+	-webkit-box-align: end;
+	-ms-flex-align: end;
+	align-items: flex-end;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+a:hover .page-selection-link{ 
+	background: #eff3f6;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(189, 189, 189, 0.4);
+	   -moz-box-shadow: 0px 0px 10px 0px rgba(189, 189, 189, 0.4);
+	        box-shadow: 0px 0px 10px 0px rgba(189, 189, 189, 0.4);
+ }
+@media(min-width: 768px){
+.page-selection-link{
+	padding: 30px;
+	min-height: 194px;
+}}
+
+/* Front End Sup Button CSS */
+.front-end-sup-btn{
+    border-radius: 5px;
+	display: inline-block;
+    background-color: #58bd1a;
+    color: #ffffff;
+    padding: 2px 6px;
+    font-size: 11px;
+    line-height: 115%;
+}
+.front-absolute-btn{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+/* Funnel Publish & Activate Page CSS */
+a.lock-unlock-icon{
+	color: #7f7c88;
+	text-decoration: none;
+	font-size: 18px;
+	margin-top: 15px;
+	padding-right: 5px;
+}
+a.lock-unlock-icon:hover,
+a.lock-unlock-icon.active{ color: #39295d;}
+@media(min-width: 768px){
+a.lock-unlock-icon{ padding-right: 10px; font-size: 20px;}
+}
+.publish-activate-input-field input[type="text"]:hover, 
+.publish-activate-input-field input[type="text"]:focus{ border-radius: 5px !important;}
+.publish-activate-input-field input[type="text"]:focus{ border: 1px solid #39295d;}

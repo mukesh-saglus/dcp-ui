@@ -1,0 +1,75 @@
+
+  /* Segment icon circle css */
+ .segment-icon-circle {
+	width: 45px;
+	height: 45px;
+	min-height: 45px;
+	min-height: 45px;
+	border: solid 1px #ced4d8;
+	border-radius: 50%;
+	display: flex;
+	line-height: 45px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+/* setting css */
+.setting-img{
+    position: relative;
+    border: solid 1px #ced4d8;
+    min-height: 100px;
+    max-height: 100px;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    display: flex;
+    overflow: hidden;
+	border-radius:5px;
+	background: #fff;
+}
+.setting-img img.img-fluid{max-height:95px;}
+.setting-hover:hover{
+background: #eff3f6;
+}
+
+.engage-abtemp-height{
+	width:190px;
+	height: 186px;
+    max-height: 186px;
+	border: 1px solid #ced4d8;
+    border-radius: 5px;
+	max-width:100%;
+	}
+.engage-abtemp-height img{max-height:186px; width:100%;}
+
+/* Campaign Active and Inactive btn  css */
+.campaign-active,
+.campaign-active:hover,.campaign-active:focus
+{background:#ffff;outline:none; cursor:pointer;}
+.inactive-btn {color:#7f7c88;border:1px solid #7f7c88; cursor:pointer;}
+
+/* Choose Pop-ups & Bars Type Modal PopUp CSS */
+a .popup-bars-type {
+	border: 1px solid #d0d6da;
+	border-radius: 5px;
+	background: #eff3f6;
+	height: 132px;
+	padding: 10px;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	ms-flex-align: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	overflow: hidden;
+}
+a:hover .popup-bars-type {
+	border: 1px solid #39295d;
+}
+a .popup-bars-type img{
+	max-height: 110px;
+}
