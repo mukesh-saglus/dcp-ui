@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="google" content="notranslate" />
+<!-- Tell the browser to be responsive to screen width -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<!-- Page Title ----->
+<title>Tell Us About Your Business</title>
+<!-- Bootstrap 4 Stylesheet ----->
+<link rel="stylesheet" href="../../../vendors/bootstrap/bootstrap.min.css">
+<!-- Common Css Stylesheet ----->
+<link rel="stylesheet" href="../../../css/general.css">
+<link rel="stylesheet" href="../../../css/elements.css">
+<link rel="stylesheet" href="../../../apps/smart/css/custom.css">
+<!-- Smart Login Css Stylesheet ----->
+<link rel="stylesheet" href="../../../apps/smart/css/login.css">
+<!-- Bootstrap Select Dropdown Stylesheet ----->
+<link rel="stylesheet" href="../../../vendors/bootstrap/bootstrap-select.css">
+<link rel="stylesheet" href="../../../vendors/bootstrap/selectpicker-style.css">
+<!-- Custom Scrollbar Stylesheet ----->
+<link rel="stylesheet" href="../../../vendors/scrollbar/jquery.mCustomScrollbar.css">
+<!---- Country Chooser Flags ------>
+<link href="../../../vendors/flagstrap/css/flags.css" rel="stylesheet">
+</head>
+<body>
+<!---------- Smart Login Header ---------->
+<div class="sticky-fix">
+  <header>
+    <div class="s-login-header d-flex justify-content-between">
+      <div class="align-self-center"> <img src="../../../images/saglus-logo.png" class="img-fluid mh-50" alt="DotcomPal"> </div>
+     <!-- <div class="align-self-center">
+		<a href="#" class="d-gblue-clr t-decoration-none f-20 f-md-25" data-toggle="modal" data-target="#vhelpModal"><i class="icon-total-viewed-videos"></i></a>
+	  </div>-->
+    </div>
+  </header>
+  
+  <!--------- Step Header ---------->
+  <div class="vd-dblue-bg p15 p-md20 d-flex justify-content-between">
+    <div class="align-self-center"><a href="business-step1.html" class="white-clr t-decoration-none f-12"> <i class="icon-back"></i> Back</a></div>
+    <div>
+      <ul class="stepwizard-style1 white-theme f-12 w400 text-center">
+        <li> <a href="business-step1.html" class="wizard-sep">
+			<i class="icon-tick-one"></i></a>
+          <div class="pt5 white-clr">Step 1</div>
+        </li>
+        <li> <a href="business-step2.html" class="wizard-sep"><i class="icon-dot f-6 opacity20"></i> <i class="icon-dot f-6 opacity60"></i> <i class="icon-dot f-6"></i></a>
+          <div class="pt5 white-clr">Step 2</div>
+        </li>
+        <li> <a href="javascript:void(0);" class="wizard-sep"></a>
+          <div class="pt5 white-clr">Step 3</div>
+        </li>
+      </ul>
+    </div>
+    <div></div>
+  </div>
+</div>
+
+<!-------- Container Start -------->
+<div class="container p15 py-md30">
+  <div class="row"> 
+    <!----- Heading----->
+    <div class="col-12 mb15 mb-md40">
+      <h4 class="w400 text-center">Tell us more about your business <a href="#" class="gblue-clr t-decoration-none f-17 ml5" data-toggle="modal" data-target="#vhelpModal"><i class="icon-video-help"></i></a></h4>
+		<p class="f-16 w400 d-gblue-clr text-center">Give us more insight into your business to analyze your business needs and to deliver the best solution in all the innovative way.  </p>
+    </div>
+    
+    <!------- Form Start----->
+    <div class="col-12 smart-form">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <div class="form-group f-14 mb-md20">
+            <label class="d-gblue-clr">Which industry best describes your company?</label>
+            <div class="error-message"><select class="selectpicker" title="Select your industry type">
+              <option>Agriculture</option>
+              <option>Information Technology</option>
+              <option>Health</option>
+              <option>Logistic</option>
+              <option>Networking</option>
+              <option>Ecommerce</option>
+              <option>Real Estate</option>
+            </select>
+			</div>
+          </div>
+          <div class="form-group f-14 mb-md20">
+            <label class="d-gblue-clr">How many customers do you have?</label>
+            <select class="selectpicker" title="Select one">
+              <option>Less than 10000</option>
+              <option>10000 - 50000 </option>
+              <option>50000 - 100000</option>
+              <option>100000 - 500000</option>
+              <option>Greater than 500000</option>
+            </select>
+          </div>			
+		  <div class="form-group f-14 mb-md20 pos-up">
+		<label class="d-gblue-clr">Goal with DotcomPal</label>	
+		<div class="dropdown simple-dropdown dropas-select error-message">			
+		<button class="customer-goalfield dropdown-toggle btn-block text-left vd-gblue-clr" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"> <span class="caret-right pull-left">Customer Support</span> </button>							
+          <div class="dropdown-menu dropdown-menu-right w-100 h-auto f-14" aria-labelledby="dropdownMenu1">
+			  
+			  
+            <!--- Searchbox Field ------->
+            <div class="bs-searchbox-field stoppropagation">
+			<!----- Custom Field --->
+			<div class="customer-goal-field">
+			<div class="input-group">
+                <input type="text" class="form-control" placeholder="Type Custom Goal">
+                <div class="input-group-append">
+                  <a class="btn"> <i class="icon-tick"></i></a>
+                </div>
+              </div>
+			</div>	
+				
+			<div class="">	
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search">
+                <div class="input-group-append">
+                  <a class="btn"> <i class="fa fa-search"></i></a>
+                </div>
+              </div>
+			</div>	
+				
+            </div>
+			  
+            <!--- Scrollbar Div start ------->
+            <div class="mCustomScrollbar f-14 mh-180" data-mcs-theme="inset-3">
+              <li> <a href="javascript:void(0)" class="dropdown-item select-dropvalue">
+             Market Research
+                </a> </li>
+              <li> <a href="javascript:void(0)" class="dropdown-item select-dropvalue">
+           Lead Generation & Nurturing
+                </a> </li>
+              <li> <a href="javascript:void(0)" class="dropdown-item select-dropvalue">
+            Video Marketing
+                </a> </li>
+              <li> <a href="javascript:void(0)" class="dropdown-item select-dropvalue">
+              Customer Engagement
+                </a> </li>
+              <li><a href="javascript:void(0)" class="dropdown-item select-dropvalue">
+               E-mail Marketing
+                </a></li>
+			<div class="stoppropagation">	
+			  <li><a href="javascript:void(0)" class="dropdown-item p-blue-clr customer-goal">
+              Add “Custom Goal”
+                </a> </li>
+            </div>
+
+</div>
+			</div>	
+		</div>	
+			
+		</div>	
+		  <div class="form-group f-14 mb-md20">
+            <label class="d-gblue-clr">What is your annual turnover?</label>
+            <select class="selectpicker" title="Select one">
+              <option>Less than $10000</option>
+              <option>$10000 - $50000</option>
+              <option>$50000 - $100000</option>
+              <option>$100000 - $0.5 Million</option>
+              <option>$0.5 Million - $1 Million</option>
+              <option>Greater than $1 Million</option>
+            </select>
+          </div>	
+        </div>
+		  
+        <div class="col-12 col-md-6">
+          <div class="form-group f-14 mb-md20">
+            <label class="d-gblue-clr">How many people work at your company?</label>
+            <select class="selectpicker" title="Select one">
+              <option>0 - 10</option>
+              <option>11 - 50</option>
+              <option>51 - 200</option>
+              <option>201 - 500</option>
+              <option>501 - 1000</option>
+              <option>Greater than 1000</option>
+            </select>
+          </div>
+		  <div class="form-group f-14 mb-md20">
+            <label class="d-gblue-clr">Timezone</label>
+			<select class="selectpicker" title="Select timezone" data-live-search="true">
+				<option timeZoneId="1" gmtAdjustment="GMT-12:00" useDaylightTime="0" value="-12">(GMT-12:00) International Date Line West</option>
+				<option timeZoneId="2" gmtAdjustment="GMT-11:00" useDaylightTime="0" value="-11">(GMT-11:00) Midway Island, Samoa</option>
+				<option timeZoneId="3" gmtAdjustment="GMT-10:00" useDaylightTime="0" value="-10">(GMT-10:00) Hawaii</option>
+				<option timeZoneId="4" gmtAdjustment="GMT-09:00" useDaylightTime="1" value="-9">(GMT-09:00) Alaska</option>
+				<option timeZoneId="5" gmtAdjustment="GMT-08:00" useDaylightTime="1" value="-8">(GMT-08:00) Pacific Time (US & Canada)</option>
+				<option timeZoneId="6" gmtAdjustment="GMT-08:00" useDaylightTime="1" value="-8">(GMT-08:00) Tijuana, Baja California</option>
+				<option timeZoneId="7" gmtAdjustment="GMT-07:00" useDaylightTime="0" value="-7">(GMT-07:00) Arizona</option>
+				<option timeZoneId="8" gmtAdjustment="GMT-07:00" useDaylightTime="1" value="-7">(GMT-07:00) Chihuahua, La Paz, Mazatlan</option>
+				<option timeZoneId="9" gmtAdjustment="GMT-07:00" useDaylightTime="1" value="-7">(GMT-07:00) Mountain Time (US & Canada)</option>
+				<option timeZoneId="10" gmtAdjustment="GMT-06:00" useDaylightTime="0" value="-6">(GMT-06:00) Central America</option>
+				<option timeZoneId="11" gmtAdjustment="GMT-06:00" useDaylightTime="1" value="-6">(GMT-06:00) Central Time (US & Canada)</option>
+				<option timeZoneId="12" gmtAdjustment="GMT-06:00" useDaylightTime="1" value="-6">(GMT-06:00) Guadalajara, Mexico City, Monterrey</option>
+				<option timeZoneId="13" gmtAdjustment="GMT-06:00" useDaylightTime="0" value="-6">(GMT-06:00) Saskatchewan</option>
+				<option timeZoneId="14" gmtAdjustment="GMT-05:00" useDaylightTime="0" value="-5">(GMT-05:00) Bogota, Lima, Quito, Rio Branco</option>
+				<option timeZoneId="15" gmtAdjustment="GMT-05:00" useDaylightTime="1" value="-5">(GMT-05:00) Eastern Time (US & Canada)</option>
+				<option timeZoneId="16" gmtAdjustment="GMT-05:00" useDaylightTime="1" value="-5">(GMT-05:00) Indiana (East)</option>
+				<option timeZoneId="17" gmtAdjustment="GMT-04:00" useDaylightTime="1" value="-4">(GMT-04:00) Atlantic Time (Canada)</option>
+				<option timeZoneId="18" gmtAdjustment="GMT-04:00" useDaylightTime="0" value="-4">(GMT-04:00) Caracas, La Paz</option>
+				<option timeZoneId="19" gmtAdjustment="GMT-04:00" useDaylightTime="0" value="-4">(GMT-04:00) Manaus</option>
+				<option timeZoneId="20" gmtAdjustment="GMT-04:00" useDaylightTime="1" value="-4">(GMT-04:00) Santiago</option>
+				<option timeZoneId="21" gmtAdjustment="GMT-03:30" useDaylightTime="1" value="-3.5">(GMT-03:30) Newfoundland</option>
+				<option timeZoneId="22" gmtAdjustment="GMT-03:00" useDaylightTime="1" value="-3">(GMT-03:00) Brasilia</option>
+				<option timeZoneId="23" gmtAdjustment="GMT-03:00" useDaylightTime="0" value="-3">(GMT-03:00) Buenos Aires, Georgetown</option>
+				<option timeZoneId="24" gmtAdjustment="GMT-03:00" useDaylightTime="1" value="-3">(GMT-03:00) Greenland</option>
+				<option timeZoneId="25" gmtAdjustment="GMT-03:00" useDaylightTime="1" value="-3">(GMT-03:00) Montevideo</option>
+				<option timeZoneId="26" gmtAdjustment="GMT-02:00" useDaylightTime="1" value="-2">(GMT-02:00) Mid-Atlantic</option>
+				<option timeZoneId="27" gmtAdjustment="GMT-01:00" useDaylightTime="0" value="-1">(GMT-01:00) Cape Verde Is.</option>
+				<option timeZoneId="28" gmtAdjustment="GMT-01:00" useDaylightTime="1" value="-1">(GMT-01:00) Azores</option>
+				<option timeZoneId="29" gmtAdjustment="GMT+00:00" useDaylightTime="0" value="0">(GMT+00:00) Casablanca, Monrovia, Reykjavik</option>
+				<option timeZoneId="30" gmtAdjustment="GMT+00:00" useDaylightTime="1" value="0">(GMT+00:00) Greenwich Mean Time : Dublin, Edinburgh, Lisbon, London</option>
+				<option timeZoneId="31" gmtAdjustment="GMT+01:00" useDaylightTime="1" value="1">(GMT+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna</option>
+				<option timeZoneId="32" gmtAdjustment="GMT+01:00" useDaylightTime="1" value="1">(GMT+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague</option>
+				<option timeZoneId="33" gmtAdjustment="GMT+01:00" useDaylightTime="1" value="1">(GMT+01:00) Brussels, Copenhagen, Madrid, Paris</option>
+				<option timeZoneId="34" gmtAdjustment="GMT+01:00" useDaylightTime="1" value="1">(GMT+01:00) Sarajevo, Skopje, Warsaw, Zagreb</option>
+				<option timeZoneId="35" gmtAdjustment="GMT+01:00" useDaylightTime="1" value="1">(GMT+01:00) West Central Africa</option>
+				<option timeZoneId="36" gmtAdjustment="GMT+02:00" useDaylightTime="1" value="2">(GMT+02:00) Amman</option>
+				<option timeZoneId="37" gmtAdjustment="GMT+02:00" useDaylightTime="1" value="2">(GMT+02:00) Athens, Bucharest, Istanbul</option>
+				<option timeZoneId="38" gmtAdjustment="GMT+02:00" useDaylightTime="1" value="2">(GMT+02:00) Beirut</option>
+				<option timeZoneId="39" gmtAdjustment="GMT+02:00" useDaylightTime="1" value="2">(GMT+02:00) Cairo</option>
+				<option timeZoneId="40" gmtAdjustment="GMT+02:00" useDaylightTime="0" value="2">(GMT+02:00) Harare, Pretoria</option>
+				<option timeZoneId="41" gmtAdjustment="GMT+02:00" useDaylightTime="1" value="2">(GMT+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius</option>
+				<option timeZoneId="42" gmtAdjustment="GMT+02:00" useDaylightTime="1" value="2">(GMT+02:00) Jerusalem</option>
+				<option timeZoneId="43" gmtAdjustment="GMT+02:00" useDaylightTime="1" value="2">(GMT+02:00) Minsk</option>
+				<option timeZoneId="44" gmtAdjustment="GMT+02:00" useDaylightTime="1" value="2">(GMT+02:00) Windhoek</option>
+				<option timeZoneId="45" gmtAdjustment="GMT+03:00" useDaylightTime="0" value="3">(GMT+03:00) Kuwait, Riyadh, Baghdad</option>
+				<option timeZoneId="46" gmtAdjustment="GMT+03:00" useDaylightTime="1" value="3">(GMT+03:00) Moscow, St. Petersburg, Volgograd</option>
+				<option timeZoneId="47" gmtAdjustment="GMT+03:00" useDaylightTime="0" value="3">(GMT+03:00) Nairobi</option>
+				<option timeZoneId="48" gmtAdjustment="GMT+03:00" useDaylightTime="0" value="3">(GMT+03:00) Tbilisi</option>
+				<option timeZoneId="49" gmtAdjustment="GMT+03:30" useDaylightTime="1" value="3.5">(GMT+03:30) Tehran</option>
+				<option timeZoneId="50" gmtAdjustment="GMT+04:00" useDaylightTime="0" value="4">(GMT+04:00) Abu Dhabi, Muscat</option>
+				<option timeZoneId="51" gmtAdjustment="GMT+04:00" useDaylightTime="1" value="4">(GMT+04:00) Baku</option>
+				<option timeZoneId="52" gmtAdjustment="GMT+04:00" useDaylightTime="1" value="4">(GMT+04:00) Yerevan</option>
+				<option timeZoneId="53" gmtAdjustment="GMT+04:30" useDaylightTime="0" value="4.5">(GMT+04:30) Kabul</option>
+				<option timeZoneId="54" gmtAdjustment="GMT+05:00" useDaylightTime="1" value="5">(GMT+05:00) Yekaterinburg</option>
+				<option timeZoneId="55" gmtAdjustment="GMT+05:00" useDaylightTime="0" value="5">(GMT+05:00) Islamabad, Karachi, Tashkent</option>
+				<option timeZoneId="56" gmtAdjustment="GMT+05:30" useDaylightTime="0" value="5.5">(GMT+05:30) Sri Jayawardenapura</option>
+				<option timeZoneId="57" gmtAdjustment="GMT+05:30" useDaylightTime="0" value="5.5">(GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi</option>
+				<option timeZoneId="58" gmtAdjustment="GMT+05:45" useDaylightTime="0" value="5.75">(GMT+05:45) Kathmandu</option>
+				<option timeZoneId="59" gmtAdjustment="GMT+06:00" useDaylightTime="1" value="6">(GMT+06:00) Almaty, Novosibirsk</option>
+				<option timeZoneId="60" gmtAdjustment="GMT+06:00" useDaylightTime="0" value="6">(GMT+06:00) Astana, Dhaka</option>
+				<option timeZoneId="61" gmtAdjustment="GMT+06:30" useDaylightTime="0" value="6.5">(GMT+06:30) Yangon (Rangoon)</option>
+				<option timeZoneId="62" gmtAdjustment="GMT+07:00" useDaylightTime="0" value="7">(GMT+07:00) Bangkok, Hanoi, Jakarta</option>
+				<option timeZoneId="63" gmtAdjustment="GMT+07:00" useDaylightTime="1" value="7">(GMT+07:00) Krasnoyarsk</option>
+				<option timeZoneId="64" gmtAdjustment="GMT+08:00" useDaylightTime="0" value="8">(GMT+08:00) Beijing, Chongqing, Hong Kong, Urumqi</option>
+				<option timeZoneId="65" gmtAdjustment="GMT+08:00" useDaylightTime="0" value="8">(GMT+08:00) Kuala Lumpur, Singapore</option>
+				<option timeZoneId="66" gmtAdjustment="GMT+08:00" useDaylightTime="0" value="8">(GMT+08:00) Irkutsk, Ulaan Bataar</option>
+				<option timeZoneId="67" gmtAdjustment="GMT+08:00" useDaylightTime="0" value="8">(GMT+08:00) Perth</option>
+				<option timeZoneId="68" gmtAdjustment="GMT+08:00" useDaylightTime="0" value="8">(GMT+08:00) Taipei</option>
+				<option timeZoneId="69" gmtAdjustment="GMT+09:00" useDaylightTime="0" value="9">(GMT+09:00) Osaka, Sapporo, Tokyo</option>
+				<option timeZoneId="70" gmtAdjustment="GMT+09:00" useDaylightTime="0" value="9">(GMT+09:00) Seoul</option>
+				<option timeZoneId="71" gmtAdjustment="GMT+09:00" useDaylightTime="1" value="9">(GMT+09:00) Yakutsk</option>
+				<option timeZoneId="72" gmtAdjustment="GMT+09:30" useDaylightTime="0" value="9.5">(GMT+09:30) Adelaide</option>
+				<option timeZoneId="73" gmtAdjustment="GMT+09:30" useDaylightTime="0" value="9.5">(GMT+09:30) Darwin</option>
+				<option timeZoneId="74" gmtAdjustment="GMT+10:00" useDaylightTime="0" value="10">(GMT+10:00) Brisbane</option>
+				<option timeZoneId="75" gmtAdjustment="GMT+10:00" useDaylightTime="1" value="10">(GMT+10:00) Canberra, Melbourne, Sydney</option>
+				<option timeZoneId="76" gmtAdjustment="GMT+10:00" useDaylightTime="1" value="10">(GMT+10:00) Hobart</option>
+				<option timeZoneId="77" gmtAdjustment="GMT+10:00" useDaylightTime="0" value="10">(GMT+10:00) Guam, Port Moresby</option>
+				<option timeZoneId="78" gmtAdjustment="GMT+10:00" useDaylightTime="1" value="10">(GMT+10:00) Vladivostok</option>
+				<option timeZoneId="79" gmtAdjustment="GMT+11:00" useDaylightTime="1" value="11">(GMT+11:00) Magadan, Solomon Is., New Caledonia</option>
+				<option timeZoneId="80" gmtAdjustment="GMT+12:00" useDaylightTime="1" value="12">(GMT+12:00) Auckland, Wellington</option>
+				<option timeZoneId="81" gmtAdjustment="GMT+12:00" useDaylightTime="0" value="12">(GMT+12:00) Fiji, Kamchatka, Marshall Is.</option>
+				<option timeZoneId="82" gmtAdjustment="GMT+13:00" useDaylightTime="0" value="13">(GMT+13:00) Nuku'alofa</option>
+				<option value="+14:00">(GMT +14:00) Line Islands, Tokelau</option>
+			</select>
+          </div>
+		  <div class="col-12 p0">
+            <div class="row">
+			<div class="col-12 col-md-12 col-lg-6">
+                <div class="form-group f-14 mb-md20 flagstrap-h50">
+			<label class="d-gblue-clr">Country</label>
+			 <div class="error-message">
+			<div id="account_contries_primary" data-input-name="country_primary">
+			</div>	
+			</div>
+          </div>
+              </div>
+              <div class="col-12 col-md-12 col-lg-6">
+<div class="form-group f-14 mb-md20">
+            <label class="d-gblue-clr">Region/State</label>
+            <select class="selectpicker" title="Select one" data-live-search="true">
+              <option>Rajasthan111</option>
+              <option>Rajasthan112</option>
+              <option>Rajasthan113</option>
+              <option>Rajasthan122</option>
+              <option>Rajasthan123</option>
+              <option>Rajasthan124</option>
+
+            </select>
+          </div>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-12 p0">
+            <div class="row">
+			<div class="col-12 col-md-12 col-lg-6">
+                <div class="form-group f-14 mb-md20">
+                  <label class="d-gblue-clr">City</label>
+                  <select class="selectpicker" title="Your City">
+                    <option>Kota</option>
+                    <option>Bundi</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-12 col-md-12 col-lg-6">
+                <div class="form-group f-14 mb-md20">
+                  <label class="d-gblue-clr">Zip/Postal Code</label>
+                  <input type="text" class="form-control f-14" placeholder="Zip/Postal Code">
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+		  
+        <div class="col-12 col-md-6 col-lg-5 form-group mb0 d-block m-auto">
+          <button type="submit" class="base-btn blue-btn btn-h50 btn-block f-16 f-md-18" title="Next">Next</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-------- Container End ----------> 
+
+<!----------- Footer Section-------------->
+<div class="footer-sticky-height1"></div>
+<footer class="footer-design" >
+  <div class="container">
+    <div class="row">
+      <div class="col-12 d-flex justify-content-center flex-wrap f-14">
+        <div>All Rights Reserved 2019 @ dotcompal.com</div>
+        <div class="mx-2 mx-md4">|</div>
+        <div><a href="#" class="t-decoration-none vd-gblue-clr">Terms & Conditions</a></div>
+        <div class="mx-2 mx-md4">|</div>
+        <div><a href="#" class="t-decoration-none vd-gblue-clr">Privacy</a></div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Help Video Modal Preview Popup -->
+<div class="modal" id="vhelpModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-dialog-centered modal-library-size full-screen-preview" role="document">
+	  
+   <a href="javascript:void(0);" data-dismiss="modal" class="white-clr t-decoration-none f-12 align-self-center cross-top-position"><i class="icon-cross"></i></a>
+	  
+      <div class="modal-body p15 p-md30">
+		<div class="embed-responsive embed-responsive-16by9 col-lg-6 col-md-8 col-12 mx-auto help-modal-border">
+		<!--<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/iOPrcVddJLc"  allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+		</div>
+      </div>
+    
+  </div>
+</div>
+
+<!----------- Footer Section end -------------> 
+<!---- Common Jquery and Bootstrap 4 & Select Dropdown Jquery Files ------> 
+<script type='text/javascript' src="../../../vendors/jquery/jquery.min.js"></script> 
+<script type='text/javascript' src="../../../js/sticky_footer.js"></script> 
+<script type='text/javascript' src="../../../vendors/bootstrap/popper.min.js"></script> 
+<script type='text/javascript' src="../../../vendors/bootstrap/bootstrap.min.js"></script> 
+<script type='text/javascript' src="../../../vendors/bootstrap/bootstrap-select.js"></script> 
+<!---- Custom Scrollbar Jquery File ------> 
+<script type='text/javascript' src="../../../vendors/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script> 
+<!---- Add Custom Javacscript File ------> 
+<script type='text/javascript' src="../../../js/script.js"></script> 
+<!----- Country Code Plugins ---------> 
+<script src="../../../vendors/flagstrap/js/jquery.flagstrap.js"></script>
+<script>
+    $('#account_contries_primary').flagStrap();
+	
+	setTimeout(function(){
+		//alert();
+		//$('.mCustomScrollbar').mCustomScrollbar('update');
+		
+	},1000);
+	
+</script>
+</body>
+</html>

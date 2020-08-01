@@ -1,4 +1,4 @@
-<?php $basedir = "http://".$_SERVER['SERVER_NAME'] . '/dcpMaxfunnels2.0/DotcomPal/'; ?>
+<?php $basedir = "http://".$_SERVER['SERVER_NAME'] . '/DCP-UI/'; ?>
 
 <!------- DotCompal Common modal Include File---------->
 <?php include '../../../smart/html/includes/common-modals.php'; ?>

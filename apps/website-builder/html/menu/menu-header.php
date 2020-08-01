@@ -9,7 +9,7 @@
 <!-- Page Title ----->
 <title>DotcomPal - Website Builder</title>
 <!-- Bootstrap 4 Stylesheet ----->
-<?php $basedir = "http://".$_SERVER['SERVER_NAME'] . '/dcpMaxfunnels2.0/DotcomPal/'; ?>
+<?php $basedir = "http://".$_SERVER['SERVER_NAME'] . '/DCP-UI/'; ?>
 <!-- Favicon Icon -->
 <link rel="icon" href="<?php echo $basedir; ?>images/favicon.png" type="image/png">
 <link rel="stylesheet" href="<?php echo $basedir; ?>vendors/bootstrap/bootstrap.min.css">

@@ -1,0 +1,480 @@
+/* Business Step CSS Start */
+/* Onboarding Step Css */
+.ob-black-header {
+	background-color: #151122;
+	position: relative;
+	padding: 15px 0px;
+}
+.ob-black-header a.help-link {
+	text-decoration: none;
+	color: #807b90;
+}
+.ob-black-header a.help-link:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+.ob-black-header .top-right-icon-margin {
+	position: relative;
+	top: 3px;
+}
+
+/* Business Step Wizard 
+========================== */
+ul.business-step-wizard li a.wizard-sep, ul.business-step-wizard li a.wizard-sep:hover, ul.business-step-wizard li a.wizard-sep:focus {
+	background: #ffffff;
+	color: #1d3242;
+}
+ul.business-step-wizard li a.wizard-sep:before {
+	border-width: 14px;
+	margin-top: -14px;
+	border-color: rgba(194, 225, 245, 0);
+	border-left-color: #1d3242;
+	z-index: 999;
+}
+ul.business-step-wizard li a.wizard-sep:after {
+	border-width: 14px;
+	margin-top: -14px;
+	border-color: rgba(136, 183, 213, 0);
+	border-left-color: #eff3f6;
+	z-index: 999;
+}
+ul.business-step-wizard {
+	margin: 0;
+	padding: 0px;
+	display: inline-block;
+}
+ul.business-step-wizard li {
+	float: left;
+	list-style: none;
+	margin-left: -1px;
+}
+ul.business-step-wizard li div.wizard-title {
+	color: #807b90;
+	padding-top: 10px;
+}
+ul.business-step-wizard li:first-child a {
+	border-bottom-left-radius: 50px;
+	border-top-left-radius: 50px;
+}
+ul.business-step-wizard li:last-child a {
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	content: none;
+}
+ul.business-step-wizard li:last-child a.wizard-sep:after {
+	content: none;
+	border-left-color: transparent;
+}
+ul.business-step-wizard li:last-child a.wizard-sep:before {
+	content: none;
+	border-left-color: transparent;
+}
+ul.business-step-wizard li a.wizard-sep, ul.business-step-wizard li a.wizard-sep:hover, ul.business-step-wizard li a.wizard-sep:focus {
+	position: relative;
+	cursor: default;
+	vertical-align: middle;
+	display: table-cell;
+	text-align: center;
+	background: #ffffff;
+	color: #34303f;
+	height: 29px;
+	min-width: 90px;
+	text-decoration: none;
+	border: solid 1px #ced4d8;
+}
+ul.business-step-wizard li a.wizard-sep.active {
+	color: #58bd1a;
+}
+ul.business-step-wizard li a.wizard-sep:after, ul.business-step-wizard li a.wizard-sep:before {
+	left: 100%;
+	top: 14px;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+ul.business-step-wizard li a.wizard-sep:after {
+	border-width: 14px;
+	margin-top: -14px;
+	border-color: rgba(136, 183, 213, 0);
+	border-left-color: #ffffff;
+	z-index: 999;
+}
+ul.business-step-wizard li a.wizard-sep:before {
+	border-width: 14px;
+	margin-top: -14px;
+	border-color: rgba(194, 225, 245, 0);
+	border-left-color: #151122;
+	z-index: 999;
+}
+@media (min-width: 768px) {
+.ob-black-header {
+	height: 90px;
+}
+ul.business-step-wizard li a.wizard-sep,  ul.business-step-wizard li a.wizard-sep:hover,  ul.business-step-wizard li a.wizard-sep:focus {
+	min-width: 130px;
+}
+}
+
+@media (min-width: 1200px) {
+ul.business-step-wizard li a.wizard-sep,  ul.business-step-wizard li a.wizard-sep:hover,  ul.business-step-wizard li a.wizard-sep:focus {
+	min-width: 190px;
+}
+}
+/* Business Step Wizard End */
+.alertSuccess {
+	color: #34303f;
+	padding: 8px 15px;
+	background-color: #def2d1;
+	border-radius: 0px;
+	width: 100%;
+	margin: 0px;
+
+}
+@media (min-width:768px){
+.alertSuccess {
+	padding: 8px 30px;
+/* 	position:absolute;
+	top:auto; */
+}	
+}
+.closeAlert, .closeAlert:focus {
+	position: absolute;
+	right: 0;
+	top: 0;
+	border: 0;
+	font-size: 20px;
+	line-height: 30px;
+	outline: 0;
+	color: #7f7c88;
+	cursor: pointer;
+	background-color: transparent;
+	-webkit-appearance: none;
+	padding: 4px 13px;
+}
+
+/* Business Step Page Css */
+.step-footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.step-footer {
+	background: #eff3f6;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 100%;
+}
+.step-footer-height {
+	height: 71px;
+}
+
+@media (min-width:768px) {
+.bunsiness-radio.smart-radio-btn label::before {
+	top: 2px;
+}
+.bunsiness-radio.smart-radio-btn label::after {
+	top: 8px;
+}
+.bunsiness-radio .label-18 {
+	font-size: 18px !important;
+	    margin-bottom: 5px;
+}
+label.label-15{
+	font-size: 15px !important;
+}
+.step-footer-height {
+	height: 81px;
+}
+.step-footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+}
+@media (min-width:992px){
+.onboarding-container-middle {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	min-height: calc(100vh - 220px) !important;
+}
+.onboarding-middle-container {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	min-height: calc(100vh - 260px) !important;
+}
+}
+@media (min-width:992px){
+	.onboarding-container-3 {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+	height: auto;
+}
+}
+@media (min-width:1400px){
+.onboarding-container-3 {
+	min-height: calc(100vh - 212px) !important;
+}
+}
+/* Business Step CSS End */
+
+.on-boarding-back{
+	background: #eff3f6;
+}
+.on-boarding-padding{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.on-boarding-profile img{
+	height: 53px;
+	min-height: 53px;
+	max-height: 53px;
+	width: 53px;
+	min-width: 53px;
+	max-width: 53px;
+	border-radius: 50%;
+}
+.profile-progress {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    background-color: #dde4ea;
+    border-radius: 45rem;
+	height: 10px;
+	border: 1px solid #ced4d8;
+}
+.striped-animated-progress {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	color: #ffffff;
+	text-align: center;
+	background-color: #67c32f;
+	transition: width .6s ease;
+	background-image: linear-gradient(120deg, rgba(86,177,29,.6) 15%, transparent 15%, transparent 59%, rgba(86,177,29,.6) 50%, rgba(86,177,29,.6) 75%, transparent 75%, transparent);
+	background-size: 9px 8px;
+	-webkit-animation: progress-bar-stripes 1s linear infinite;
+	animation: progress-bar-stripes 1s linear infinite;
+}
+/* Accordion CSS */
+.on-boarding-accordion{
+	border-radius: 5px;
+	background: #ffffff;
+	box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+	border: 0px;
+}
+.accordion-header{
+	padding: 15px;
+	cursor: pointer;
+}
+.accordion-body{
+	border-top: 1px solid #ced4d8;
+	padding: 15px;
+}
+.accordion-icon-show{
+	display: none;
+}
+/* Accordion Current  Step */
+.current-accordion{
+	border-left: 3px solid #64c02c;
+}
+/* Accordion Done Step */
+.accordion-complete .accordion-icon-show{
+	display: inline-block;
+}
+/* Accordion CSS End */
+.business-name{
+	background: #eff3f6;
+	border: 1px solid #ced4d8;
+	border-radius: 5px;
+	padding: 10px;
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	pointer-events: none;
+}
+a.right-side-bar{
+	text-decoration: none;
+	height: 35px;
+	min-height: 35px;
+	width: 35px;
+	min-width: 35px;
+}
+.custom-domain-edit{
+	background: #eff3f6;
+	border: 1px solid #ced4d8;
+	border-radius: 5px;
+	padding: 15px;
+}
+.custom-domain-add{
+	background: #ffffff;
+	border: 1px solid #ced4d8;
+	border-radius: 5px;
+	padding: 15px;
+}
+
+.audience-tabbing .nav.nav-tabs{
+	border: 0px;
+}
+.audience-tabbing .nav-tabs .nav-item .nav-link, 
+.audience-tabbing .nav-tabs .nav-link{
+	background: #eff3f6;
+    border: 1px solid #ced4d8;
+    font-size: 13px;
+    color: #34303f;
+	font-weight: 500;
+    border-radius: 0px;
+    padding: 10px 9px;
+	position: relative;
+}
+.audience-tabbing .nav-item:first-of-type .nav-link{
+    border-top-left-radius: 5px;
+	border-right: 0px;
+}
+.audience-tabbing .nav-item:last-of-type .nav-link{
+    border-top-right-radius: 5px;
+}
+.audience-tabbing textarea,
+.audience-tabbing textarea:hover,
+.audience-tabbing textarea:focus{
+	border-top-left-radius: 0px;
+	border: 1px solid #ced4d8;
+}
+.audience-tabbing .nav-tabs .nav-item .nav-link.active:after, 
+.audience-tabbing .nav-tabs .nav-item:hover a.nav-link:after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #eff3f6;
+    position: absolute;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border-right: #ced4d8 solid 1px;
+    border-bottom: #ced4d8 solid 1px;
+    bottom: -6px;
+    left: 48%;
+}
+.accordion-body .dropdown.dropdown-caret-margin > .dropdown-toggle::after{
+	left: 88%;
+    top: 45%;
+    position: absolute;
+}
+.on-boarding-right-back{
+	background: #dde4ea;
+}
+ul.articles-list{
+	padding: 0px;
+	margin-bottom: 0px;
+    word-break: break-word;
+}
+ul.articles-list li a{
+	color: #39295d;
+}
+ul.articles-list li{
+	background: url(../images/articles-list-icon.png) no-repeat;
+    list-style: none;
+    padding: 0px 0px 15px 40px;
+    background-position: 0px 5px;
+}
+a.right-sidebar-close{
+	font-size: 11px;
+	color: #7f7c88;
+	text-decoration:none;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	z-index: 999;
+}
+.on-boarding-right-back.fixed-right-side-bar{
+	position: fixed;
+    left: 0px;
+    top: 40px;
+    display: block !important;
+    overflow: auto;
+    height: calc(100vh - 40px);
+    z-index: 99;
+    padding-bottom: 10px;
+}
+/*-- Step-1-Checkbox --*/
+.show-cheked .hide-cheked{
+	 display:none;
+}
+.show-cheked.active .hide-cheked{
+	 display:block;
+}
+
+@media(min-width: 768px){
+.on-boarding-back{
+	min-height: calc( 100vh - 110px);
+	border-right: 1px solid #ced4d8
+}
+.on-boarding-scrollbar{
+	max-height: 1500px;
+	min-height: calc( 100vh);
+}
+.accordion-header{
+	padding: 17px 20px 17px 30px;
+}
+.accordion-body{
+	padding: 20px 30px 30px;
+}
+.business-name{
+	padding: 15px 20px;
+}
+.on-boarding-padding{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.custom-domain-edit{
+	padding: 30px;
+}
+.custom-domain-add{
+	padding: 30px 15px 30px 30px;;
+}
+.audience-tabbing .nav-tabs .nav-item .nav-link, 
+.audience-tabbing .nav-tabs .nav-link{
+    font-size: 14px;
+    padding: 10px 20px;
+}
+a.right-sidebar-close{ display: none;}
+}
+@media(min-width: 992px){
+.on-boarding-padding{
+	padding-left: 100px;
+	padding-right: 100px;
+}
+}
+@media(min-width: 1400px){
+.footer-design {
+    min-height: 52px;
+}
+}
