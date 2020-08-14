@@ -9,7 +9,7 @@
 <!-- Page Title -->
 <title>Smart Header</title>
 <!-- Bootstrap 4 Stylesheet -->
-<?php $basedir = "http://".$_SERVER['SERVER_NAME'] . '/dcpMaxfunnels2.0/DotcomPal/'; ?>
+<?php $basedir = "http://".$_SERVER['SERVER_NAME'] . '/DCP-UI/'; ?>
 <link rel="stylesheet" href="<?php echo $basedir; ?>vendors/bootstrap/bootstrap.min.css"/>
 <!-- Common Css Stylesheet -->
 <link rel="stylesheet" href="<?php echo $basedir; ?>css/general.css"/>
@@ -144,8 +144,16 @@
 							Maximum unit of product that can be purchased
 							<a class="ml10 d-gblue-clr t-decoration-none" href="javascript:void(0);" data-toggle="tooltip" data-placement="top" title="" data-original-title="Enter the maximum number of unita allowed for the product."><i class="icon-information f-13"></i></a>
 						</div>
-						<div class="col-md-4 col-xl-4 col-12">
-						<input name="maximumunit" type="number" class="form-control" />
+						<div class="col-md-4 col-xl-3 col-12">
+						<select class="selectpicker">
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+						</select>
 						</div>
 					</div>
 					<!--  physical item Div -->

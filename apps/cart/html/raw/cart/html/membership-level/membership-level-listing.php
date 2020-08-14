@@ -124,15 +124,14 @@
 									</li>
 									<li class="action-menu"><a href="#" class="action-item" title="Link"><i class="icon-link-activity"></i></a>
 									</li>
-									<li class="action-menu">
-										<a href="#" class="action-item" title="Add New Member" data-toggle="modal" data-target="#addNewMemberModal"><i class="icon-private"></i></a>
+									<li class="action-menu"><a href="#" class="action-item" title="Duplicate"><i class="icon-duplicate"></i></a>
 									</li>
 									<li class="action-menu table-action-dropdown">
 										<a href="javascript:" class="dropdown-toggle action-item" data-toggle="dropdown"> <span data-toggle="tooltip" data-placement="top" data-original-title="More"><i class="icon-more"></i></span> 
 										</a>
 										<ul class="dropdown-menu dropdown-menu-right" role="menu">
-											<li><a href="#">Duplicate</a></li>
-											<li><a href="#" data-toggle="modal" data-target="#deleteModal">Delete</a></li>
+											<li><a href="#" data-toggle="modal" data-target="#deleteModal">Delete</a>
+											</li>
 										</ul>
 									</li>
 								</ul>
@@ -156,15 +155,14 @@
 									</li>
 									<li class="action-menu"><a href="#" class="action-item" title="Link"><i class="icon-link-activity"></i></a>
 									</li>
-									<li class="action-menu">
-										<a href="#" class="action-item" title="Add New Member" data-toggle="modal" data-target="#addNewMemberModal"><i class="icon-private"></i></a>
+									<li class="action-menu"><a href="#" class="action-item" title="Duplicate"><i class="icon-duplicate"></i></a>
 									</li>
 									<li class="action-menu table-action-dropdown">
 										<a href="javascript:" class="dropdown-toggle action-item" data-toggle="dropdown"> <span data-toggle="tooltip" data-placement="top" data-original-title="More"><i class="icon-more"></i></span> 
 										</a>
 										<ul class="dropdown-menu dropdown-menu-right" role="menu">
-											<li><a href="#">Duplicate</a></li>
-											<li><a href="#" data-toggle="modal" data-target="#deleteModal">Delete</a></li>
+											<li><a href="#" data-toggle="modal" data-target="#deleteModal">Delete</a>
+											</li>
 										</ul>
 									</li>
 								</ul>
@@ -188,15 +186,14 @@
 									</li>
 									<li class="action-menu"><a href="#" class="action-item" title="Link"><i class="icon-link-activity"></i></a>
 									</li>
-									<li class="action-menu">
-										<a href="#" class="action-item" title="Add New Member" data-toggle="modal" data-target="#addNewMemberModal"><i class="icon-private"></i></a>
+									<li class="action-menu"><a href="#" class="action-item" title="Duplicate"><i class="icon-duplicate"></i></a>
 									</li>
 									<li class="action-menu table-action-dropdown">
 										<a href="javascript:" class="dropdown-toggle action-item" data-toggle="dropdown"> <span data-toggle="tooltip" data-placement="top" data-original-title="More"><i class="icon-more"></i></span> 
 										</a>
 										<ul class="dropdown-menu dropdown-menu-right" role="menu">
-											<li><a href="#">Duplicate</a></li>
-											<li><a href="#" data-toggle="modal" data-target="#deleteModal">Delete</a></li>
+											<li><a href="#" data-toggle="modal" data-target="#deleteModal">Delete</a>
+											</li>
 										</ul>
 									</li>
 								</ul>
@@ -220,15 +217,14 @@
 									</li>
 									<li class="action-menu"><a href="#" class="action-item" title="Link"><i class="icon-link-activity"></i></a>
 									</li>
-									<li class="action-menu">
-										<a href="#" class="action-item" title="Add New Member" data-toggle="modal" data-target="#addNewMemberModal"><i class="icon-private"></i></a>
+									<li class="action-menu"><a href="#" class="action-item" title="Duplicate"><i class="icon-duplicate"></i></a>
 									</li>
 									<li class="action-menu table-action-dropdown">
 										<a href="javascript:" class="dropdown-toggle action-item" data-toggle="dropdown"> <span data-toggle="tooltip" data-placement="top" data-original-title="More"><i class="icon-more"></i></span> 
 										</a>
 										<ul class="dropdown-menu dropdown-menu-right" role="menu">
-											<li><a href="#">Duplicate</a></li>
-											<li><a href="#" data-toggle="modal" data-target="#deleteModal">Delete</a></li>
+											<li><a href="#" data-toggle="modal" data-target="#deleteModal">Delete</a>
+											</li>
 										</ul>
 									</li>
 								</ul>
@@ -252,15 +248,14 @@
 									</li>
 									<li class="action-menu"><a href="#" class="action-item" title="Link"><i class="icon-link-activity"></i></a>
 									</li>
-									<li class="action-menu">
-										<a href="#" class="action-item" title="Add New Member" data-toggle="modal" data-target="#addNewMemberModal"><i class="icon-private"></i></a>
+									<li class="action-menu"><a href="#" class="action-item" title="Duplicate"><i class="icon-duplicate"></i></a>
 									</li>
 									<li class="action-menu table-action-dropdown">
 										<a href="javascript:" class="dropdown-toggle action-item" data-toggle="dropdown"> <span data-toggle="tooltip" data-placement="top" data-original-title="More"><i class="icon-more"></i></span> 
 										</a>
 										<ul class="dropdown-menu dropdown-menu-right" role="menu">
-											<li><a href="#">Duplicate</a></li>
-											<li><a href="#" data-toggle="modal" data-target="#deleteModal">Delete</a></li>
+											<li><a href="#" data-toggle="modal" data-target="#deleteModal">Delete</a>
+											</li>
 										</ul>
 									</li>
 								</ul>
@@ -284,15 +279,14 @@
 									</li>
 									<li class="action-menu"><a href="#" class="action-item" title="Link"><i class="icon-link-activity"></i></a>
 									</li>
-									<li class="action-menu">
-										<a href="#" class="action-item" title="Add New Member" data-toggle="modal" data-target="#addNewMemberModal"><i class="icon-private"></i></a>
+									<li class="action-menu"><a href="#" class="action-item" title="Duplicate"><i class="icon-duplicate"></i></a>
 									</li>
 									<li class="action-menu table-action-dropdown">
 										<a href="javascript:" class="dropdown-toggle action-item" data-toggle="dropdown"> <span data-toggle="tooltip" data-placement="top" data-original-title="More"><i class="icon-more"></i></span> 
 										</a>
 										<ul class="dropdown-menu dropdown-menu-right" role="menu">
-											<li><a href="#">Duplicate</a></li>
-											<li><a href="#" data-toggle="modal" data-target="#deleteModal">Delete</a></li>
+											<li><a href="#" data-toggle="modal" data-target="#deleteModal">Delete</a>
+											</li>
 										</ul>
 									</li>
 								</ul>
@@ -316,15 +310,14 @@
 									</li>
 									<li class="action-menu"><a href="#" class="action-item" title="Link"><i class="icon-link-activity"></i></a>
 									</li>
-									<li class="action-menu">
-										<a href="#" class="action-item" title="Add New Member" data-toggle="modal" data-target="#addNewMemberModal"><i class="icon-private"></i></a>
+									<li class="action-menu"><a href="#" class="action-item" title="Duplicate"><i class="icon-duplicate"></i></a>
 									</li>
 									<li class="action-menu table-action-dropdown">
 										<a href="javascript:" class="dropdown-toggle action-item" data-toggle="dropdown"> <span data-toggle="tooltip" data-placement="top" data-original-title="More"><i class="icon-more"></i></span> 
 										</a>
 										<ul class="dropdown-menu dropdown-menu-right" role="menu">
-											<li><a href="#">Duplicate</a></li>
-											<li><a href="#" data-toggle="modal" data-target="#deleteModal">Delete</a></li>
+											<li><a href="#" data-toggle="modal" data-target="#deleteModal">Delete</a>
+											</li>
 										</ul>
 									</li>
 								</ul>
@@ -348,15 +341,14 @@
 									</li>
 									<li class="action-menu"><a href="#" class="action-item" title="Link"><i class="icon-link-activity"></i></a>
 									</li>
-									<li class="action-menu">
-										<a href="#" class="action-item" title="Add New Member" data-toggle="modal" data-target="#addNewMemberModal"><i class="icon-private"></i></a>
+									<li class="action-menu"><a href="#" class="action-item" title="Duplicate"><i class="icon-duplicate"></i></a>
 									</li>
 									<li class="action-menu table-action-dropdown">
 										<a href="javascript:" class="dropdown-toggle action-item" data-toggle="dropdown"> <span data-toggle="tooltip" data-placement="top" data-original-title="More"><i class="icon-more"></i></span> 
 										</a>
 										<ul class="dropdown-menu dropdown-menu-right" role="menu">
-											<li><a href="#">Duplicate</a></li>
-											<li><a href="#" data-toggle="modal" data-target="#deleteModal">Delete</a></li>
+											<li><a href="#" data-toggle="modal" data-target="#deleteModal">Delete</a>
+											</li>
 										</ul>
 									</li>
 								</ul>
@@ -404,3 +396,9 @@
 <!-- Popup Include File -->
 <?php include '../../includes/common-modals-cart.php'; ?>
 <!-- Popup Include File end -->
+
+
+
+
+
+ 

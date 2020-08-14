@@ -30,28 +30,3 @@
 	</div>
 </div>
 <!-- CreateLevel Modal Popup end -->
-
-<!-- Add New Member Popup -->
-<div class="modal" id="addNewMemberModal" tabindex="-1" role="dialog">
-	<div class="modal-dialog modal-dialog-centered modal-copy-size" role="document">
-		<div class="modal-content radius5 border-0">
-			<div class="modal-body p15 p-md30 smart-form">
-				<img class="img-fluid d-block mx-auto mb15 mb-md20" src="../../images/add-new-member.png">
-				<div class="w400 vd-gblue-clr f-16 f-md-18 mb5 text-center">Add New Member</div>
-				<div class="form-group d-gblue-clr f-14 mb0 mt15 mt-md25 bs-h40">
-					<label>
-						Add Members
-					</label>
-					<select class="selectpicker f-14" title="Select Members">
-						<option>Select Members</option>
-					</select>
-				</div>
-			</div>
-			<div class="p15 p-md30 custom-modal-foooter text-center">
-				<a href="javascript:void(0)" class="base-btn default-btn f-14 mr5" data-dismiss="modal">Cancel</a>
-				<button type="button" class="base-btn blue-btn f-14">Add</button>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- Add New Member Popup end -->
